@@ -1,0 +1,20 @@
+Source-Makefile: feeds/packages/utils/bandwidthd-php/Makefile
+Package: bandwidthd-php
+Version: 2.0.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcre +libxml2 +php5 +php5-cgi +php5-mod-pgsql +php5-mod-gd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: PHP files to graph bandwidthd data in a postgresql database
+Maintainer: Jean-Michel Lacroix <lacroix@lepine-lacroix.info>
+Source: 
+License: GPL-2.0
+Type: ipkg
+Description:   PHP files to graph bandwidthd data in a postgresql database
+http://bandwidthd.sourceforge.net/
+Jean-Michel Lacroix <lacroix@lepine-lacroix.info>
+@@
+
+

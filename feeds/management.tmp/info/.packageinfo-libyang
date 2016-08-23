@@ -1,0 +1,38 @@
+Source-Makefile: feeds/management/libyang/Makefile
+Package: libyang
+Version: 0.9.125-12691264fd0a9d7b10994bb61fef6157f60519b1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcre
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: Libraries
+Title: YANG data modeling language library
+Maintainer: Luka Perkov <luka@openwrt.org>
+Source: libyang-0.9.125-12691264fd0a9d7b10994bb61fef6157f60519b1.tar.gz
+License: GPL-2.0+
+Type: ipkg
+Description: YANG data modeling language library
+https://github.com/CESNET/libyang
+Luka Perkov <luka@openwrt.org>
+@@
+
+Package: yanglint
+Version: 0.9.125-12691264fd0a9d7b10994bb61fef6157f60519b1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libyang
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: YANG data modeling language utility
+Maintainer: Luka Perkov <luka@openwrt.org>
+Source: libyang-0.9.125-12691264fd0a9d7b10994bb61fef6157f60519b1.tar.gz
+License: GPL-2.0+
+Type: ipkg
+Description: YANG data modeling language utility
+https://github.com/CESNET/libyang
+Luka Perkov <luka@openwrt.org>
+@@
+
+

@@ -1,0 +1,22 @@
+Source-Makefile: feeds/packages/net/webui-aria2/Makefile
+Package: webui-aria2
+Submenu: Download Manager
+Version: 2016-05-30-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: An interface to interact with aria2
+Maintainer: Hsing-Wang Liao <kuoruan@gmail.com>
+Source: webui-aria2-2016-05-30-a4b1e954f15a2cc69dd0cb2092c44a549715b2e7.tar.gz
+License: MIT
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use.
+https://github.com/ziahamza/webui-aria2
+Hsing-Wang Liao <kuoruan@gmail.com>
+@@
+
+

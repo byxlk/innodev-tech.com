@@ -1,0 +1,21 @@
+Source-Makefile: feeds/packages/utils/qemu/Makefile
+Package: qemu-ga
+Version: 2.5.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +glib2 +libpthread +libstdcpp +librt
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: QEMU Guest Agent
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Source: qemu-2.5.0.tar.bz2
+License: GPL-2.0
+LicenseFiles: LICENSE tcg/LICENSE
+Type: ipkg
+Description: This package contains the QEMU Guest Agent daemon
+http://www.qemu.org
+Yousong Zhou <yszhou4tech@gmail.com>
+@@
+
+

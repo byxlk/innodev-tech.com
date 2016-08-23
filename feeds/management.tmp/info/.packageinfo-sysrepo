@@ -1,0 +1,53 @@
+Source-Makefile: feeds/management/sysrepo/Makefile
+Package: libsysrepo
+Version: 2016-06-03-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libyang +libprotobuf +libprotobuf-c +libev +libavl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: util
+Category: Utilities
+Title: YANG-based system repository
+Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
+Source: sysrepo-0b12938bf5d4bcf6d6ebeb126a2b1f489fa078a7.tar.bz2
+License: ASL-2.0
+Type: ipkg
+Description: YANG-based system repository
+Mislav Novakovic <mislav.novakovic@sartura.hr>
+@@
+
+Package: sysrepod
+Version: 2016-06-03-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsysrepo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: util
+Category: Utilities
+Title: sysrepo deamon
+Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
+Source: sysrepo-0b12938bf5d4bcf6d6ebeb126a2b1f489fa078a7.tar.bz2
+License: ASL-2.0
+Type: ipkg
+Description: sysrepo deamon
+Mislav Novakovic <mislav.novakovic@sartura.hr>
+@@
+
+Package: sysrepoctl
+Version: 2016-06-03-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsysrepo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: util
+Category: Utilities
+Title: sysrepo cli
+Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
+Source: sysrepo-0b12938bf5d4bcf6d6ebeb126a2b1f489fa078a7.tar.bz2
+License: ASL-2.0
+Type: ipkg
+Description: sysrepo cli
+Mislav Novakovic <mislav.novakovic@sartura.hr>
+@@
+
+
