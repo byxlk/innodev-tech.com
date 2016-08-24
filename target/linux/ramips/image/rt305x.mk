@@ -111,6 +111,17 @@ define BuildFirmware/VOCORE/initramfs
 	$(call BuildFirmware/OF/initramfs,$(1),$(2)-16M,$(3)-16M)
 endef
 
+wpcore_8mb_mtd_size=8060928
+wpcore_16mb_mtd_size=16449536
+define BuildFirmware/WPCORE/squashfs
+	$(call BuildFirmware/CustomFlash/$(1),$(1),$(2)-8M,$(3)-8M,$(wpcore_8mb_mtd_size))
+	$(call BuildFirmware/CustomFlash/$(1),$(1),$(2)-16M,$(3)-16M,$(wpcore_16mb_mtd_size))
+endef
+define BuildFirmware/WPCORE/initramfs
+	$(call BuildFirmware/OF/initramfs,$(1),$(2)-8M,$(3)-8M)
+	$(call BuildFirmware/OF/initramfs,$(1),$(2)-16M,$(3)-16M)
+endef
+
 # sign Buffalo images
 define BuildFirmware/Buffalo
 	if [ -e "$(call sysupname,$(1),$(2))" ]; then \
@@ -273,6 +284,7 @@ Image/Build/Profile/RUT5XX=$(call BuildFirmware/Default8M/$(1),$(1),rut5xx,RUT5X
 Image/Build/Profile/SL-R7205=$(call BuildFirmware/Default4M/$(1),$(1),sl-r7205,SL-R7205)
 Image/Build/Profile/V22RW-2X2=$(call BuildFirmware/Default4M/$(1),$(1),v22rw-2x2,V22RW-2X2)
 Image/Build/Profile/VOCORE=$(call BuildFirmware/VOCORE/$(1),$(1),vocore,VOCORE)
+Image/Build/Profile/WPCORE=$(call BuildFirmware/WPCORE/$(1),$(1),wpcore,WPCORE)
 Image/Build/Profile/W150M=$(call BuildFirmware/CustomFlashFactory/$(1),$(1),w150m,W150M,$(ralink_default_fw_size_4M),W150M Kernel Image,factory)
 Image/Build/Profile/W306R_V20=$(call BuildFirmware/CustomFlashFactory/$(1),$(1),w306r-v20,W306R_V20,$(ralink_default_fw_size_4M),linkn Kernel Image,factory)
 Image/Build/Profile/W502U=$(call BuildFirmware/Default8M/$(1),$(1),w502u,W502U)
@@ -369,6 +381,7 @@ define Image/Build/Profile/Default
 	$(call Image/Build/Profile/UR-326N4G,$(1))
 	$(call Image/Build/Profile/V22RW-2X2,$(1))
 	$(call Image/Build/Profile/VOCORE,$(1))
+	$(call Image/Build/Profile/WPCORE,$(1))
 	$(call Image/Build/Profile/W150M,$(1))
 	$(call Image/Build/Profile/W306R_V20,$(1))
 	$(call Image/Build/Profile/W502U,$(1))

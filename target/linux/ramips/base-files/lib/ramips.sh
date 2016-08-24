@@ -415,6 +415,9 @@ ramips_board_detect() {
 	*"VoCore")
 		name="vocore"
 		;;
+	*"WpCore")
+		name="wpcore"
+		;;
 	*"W150M")
 		name="w150m"
 		;;

@@ -68,6 +68,7 @@ get_status_led() {
 	rut5xx|\
 	v11st-fe|\
 	vocore|\
+	wpcore|\
 	wmr-300|\
 	zbt-wg2626|\
 	zbt-wg3526)
