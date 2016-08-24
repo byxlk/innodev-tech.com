@@ -52,7 +52,7 @@ CONFIG_TARGET_ramips_rt305x=y
 # CONFIG_TARGET_ramips_mt7688 is not set
 # CONFIG_TARGET_ramips_rt3883 is not set
 # CONFIG_TARGET_ramips_rt288x is not set
-CONFIG_TARGET_ramips_rt305x_Default=y
+# CONFIG_TARGET_ramips_rt305x_Default is not set
 # CONFIG_TARGET_ramips_rt305x_ALL02393G is not set
 # CONFIG_TARGET_ramips_rt305x_ALL0256N is not set
 # CONFIG_TARGET_ramips_rt305x_ALL5002 is not set
@@ -104,7 +104,7 @@ CONFIG_TARGET_ramips_rt305x_Default=y
 # CONFIG_TARGET_ramips_rt305x_W306R_V20 is not set
 # CONFIG_TARGET_ramips_rt305x_UR-326N4G is not set
 # CONFIG_TARGET_ramips_rt305x_UR-336UN is not set
-# CONFIG_TARGET_ramips_rt305x_VOCORE is not set
+CONFIG_TARGET_ramips_rt305x_VOCORE=y
 # CONFIG_TARGET_ramips_rt305x_NCS601W is not set
 # CONFIG_TARGET_ramips_rt305x_WIZFI630A is not set
 CONFIG_HAS_SUBTARGETS=y
@@ -124,11 +124,14 @@ CONFIG_DEFAULT_ip6tables=y
 CONFIG_DEFAULT_iptables=y
 CONFIG_DEFAULT_iwinfo=y
 CONFIG_DEFAULT_kmod-gpio-button-hotplug=y
+CONFIG_DEFAULT_kmod-i2c-core=y
+CONFIG_DEFAULT_kmod-i2c-ralink=y
 CONFIG_DEFAULT_kmod-leds-gpio=y
-CONFIG_DEFAULT_kmod-ledtrig-usbdev=y
 CONFIG_DEFAULT_kmod-rt2800-soc=y
+CONFIG_DEFAULT_kmod-spi-dev=y
 CONFIG_DEFAULT_kmod-usb-core=y
-CONFIG_DEFAULT_kmod-usb-dwc2=y
+CONFIG_DEFAULT_kmod-usb-ohci=y
+CONFIG_DEFAULT_kmod-usb2=y
 CONFIG_DEFAULT_libc=y
 CONFIG_DEFAULT_libgcc=y
 CONFIG_DEFAULT_logd=y
