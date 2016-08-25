@@ -138,7 +138,7 @@
 		};
 
 		i2c: i2c@900 {
-			compatible = "ralink,rt2880-i2c";
+			compatible = "link,rt5350-i2c", "ralink,rt2880-i2c";
 			reg = <0x900 0x100>;
 
 			resets = <&rstctrl 16>;
@@ -153,7 +153,7 @@
 			status = "disabled";
 		};
 
-		i2s@a00 {
+		i2s: i2s@a00 {
 			compatible = "ralink,rt3352-i2s";
 			reg = <0xa00 0x100>;
 
@@ -230,7 +230,7 @@
 		};
 
 		gdma: gdma@2800 {
-			compatible = "ralink,rt3883-gdma";
+			compatible = "ralink,mt7620a-gdma", "ralink,rt2880-gdma", "ralink,rt3883-gdma";
 			reg = <0x2800 0x800>;
 
 			resets = <&rstctrl 14>;
@@ -242,6 +242,23 @@
 			#dma-cells = <1>;
 			#dma-channels = <16>;
 			#dma-requests = <16>;
+
+			status = "disabled";
+		};
+
+        pcm: pcm@2000 {
+			compatible = "ralink,rt5350-pcm,master-pcm";
+			reg = <0x2000 0x800>;
+
+			resets = <&rstctrl 11>;
+			reset-names = "pcm";
+
+			interrupt-parent = <&intc>;
+			interrupts = <4>;
+            
+            		dmas = <&gdma 4>,
+                		<&gdma 5>;
+            		dma-names = "tx", "rx";
 
 			status = "disabled";
 		};
