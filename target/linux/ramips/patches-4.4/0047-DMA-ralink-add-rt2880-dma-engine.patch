@@ -20,7 +20,7 @@ Signed-off-by: John Crispin <blogic@openwrt.org>
  
 +config DMA_RALINK
 +	tristate "RALINK DMA support"
-+	depends on RALINK && !SOC_RT288X
++	depends on RALINK && (SOC_MT7620 || SOC_RT305X) && !SOC_RT288X
 +	select DMA_ENGINE
 +	select DMA_VIRTUAL_CHANNELS
 +
@@ -1753,4 +1753,5 @@ Signed-off-by: John Crispin <blogic@openwrt.org>
 +
 +MODULE_AUTHOR("Michael Lee <igvtee@gmail.com>");
 +MODULE_DESCRIPTION("MTK HSDMA driver");
-+MODULE_LICENSE("GPL v2");
++-MODULE_LICENSE("GPL v2");
+++MODULE_LICENSE("GPL");

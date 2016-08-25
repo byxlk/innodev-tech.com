@@ -4,6 +4,22 @@
 	compatible = "WpCore", "ralink,rt5350-soc";
 	model = "WpCore";
 
+    chosen {
+            bootargs = "console=ttyS1,57600";
+
+    };
+
+    codec: sxx-pcm-codec {
+	    compatible = "ralink,sxx-pcm-codec";
+    };
+    
+    sound: sxx-pcm-machine {
+        compatible = "ralink,sxx-pcm-machine";
+        model = "sxx-pcm-machine";
+        cpu-dai = <&pcm>;
+        codec-dai = <&codec>;
+    };
+
 	gpio-export {
 		compatible = "gpio-export";
 		#size-cells = <0>;
@@ -197,12 +213,8 @@
 
 
 //------------------------------------------------------
-chosen {
-	bootargs = "console=ttyS1,57600";
-};
-
 &pcm {
-	status = "okay"
+	status = "okay";
 };
 
 &gdma {
@@ -214,14 +226,4 @@ chosen {
 	status = "okay";
 };
 
-codec: sxx-pcm-codec {
-	compatible = "ralink,sxx-pcm-codec";
-};
-    
-sound: sxx-pcm-machine {
-        compatible = "ralink,sxx-pcm-machine";
-        model = "sxx-pcm-machine";
-        cpu-dai = <&pcm>;
-        codec-dai = <&codec>;
-};
 
