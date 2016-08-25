@@ -104,9 +104,10 @@ CONFIG_TARGET_ramips_rt305x=y
 # CONFIG_TARGET_ramips_rt305x_W306R_V20 is not set
 # CONFIG_TARGET_ramips_rt305x_UR-326N4G is not set
 # CONFIG_TARGET_ramips_rt305x_UR-336UN is not set
-CONFIG_TARGET_ramips_rt305x_VOCORE=y
+# CONFIG_TARGET_ramips_rt305x_VOCORE is not set
 # CONFIG_TARGET_ramips_rt305x_NCS601W is not set
 # CONFIG_TARGET_ramips_rt305x_WIZFI630A is not set
+CONFIG_TARGET_ramips_rt305x_WPCORE=y
 CONFIG_HAS_SUBTARGETS=y
 CONFIG_TARGET_BOARD="ramips"
 CONFIG_TARGET_SUBTARGET="rt305x"
@@ -1523,7 +1524,7 @@ CONFIG_PACKAGE_kmod-i2c-ralink=y
 #
 # CONFIG_PACKAGE_kmod-hid is not set
 # CONFIG_PACKAGE_kmod-hid-generic is not set
-# CONFIG_PACKAGE_kmod-input-core is not set
+CONFIG_PACKAGE_kmod-input-core=y
 # CONFIG_PACKAGE_kmod-input-evdev is not set
 # CONFIG_PACKAGE_kmod-input-gpio-encoder is not set
 # CONFIG_PACKAGE_kmod-input-gpio-keys is not set
@@ -1560,7 +1561,7 @@ CONFIG_PACKAGE_kmod-lib-crc-itu-t=y
 # CONFIG_PACKAGE_kmod-lib-crc7 is not set
 # CONFIG_PACKAGE_kmod-lib-crc8 is not set
 # CONFIG_PACKAGE_kmod-lib-lz4 is not set
-# CONFIG_PACKAGE_kmod-lib-lzo is not set
+CONFIG_PACKAGE_kmod-lib-lzo=y
 # CONFIG_PACKAGE_kmod-lib-textsearch is not set
 # CONFIG_PACKAGE_kmod-lib-zlib is not set
 
@@ -1757,7 +1758,7 @@ CONFIG_PACKAGE_kmod-gpio-button-hotplug=y
 # CONFIG_PACKAGE_kmod-pps-gpio is not set
 # CONFIG_PACKAGE_kmod-ptp is not set
 # CONFIG_PACKAGE_kmod-random-core is not set
-# CONFIG_PACKAGE_kmod-regmap is not set
+CONFIG_PACKAGE_kmod-regmap=y
 # CONFIG_PACKAGE_kmod-rotary-gpio-custom is not set
 # CONFIG_PACKAGE_kmod-sdhci is not set
 # CONFIG_PACKAGE_kmod-serial-8250 is not set
@@ -1782,7 +1783,16 @@ CONFIG_PACKAGE_kmod-spi-dev=y
 #
 # Sound Support
 #
-# CONFIG_PACKAGE_kmod-sound-core is not set
+CONFIG_PACKAGE_kmod-sound-core=y
+CONFIG_PACKAGE_kmod-ac97=y
+# CONFIG_PACKAGE_kmod-sound-dummy is not set
+# CONFIG_PACKAGE_kmod-sound-i8x0 is not set
+# CONFIG_PACKAGE_kmod-sound-mpu401 is not set
+# CONFIG_PACKAGE_kmod-sound-seq is not set
+# CONFIG_PACKAGE_kmod-sound-soc-ac97 is not set
+CONFIG_PACKAGE_kmod-sound-soc-core=y
+# CONFIG_PACKAGE_kmod-sound-via82xx is not set
+# CONFIG_PACKAGE_kmod-usb-audio is not set
 
 #
 # USB Support
@@ -2329,3 +2339,16 @@ CONFIG_PACKAGE_libjson-script=y
 # CONFIG_PACKAGE_uuidd is not set
 # CONFIG_PACKAGE_uuidgen is not set
 # CONFIG_PACKAGE_whereis is not set
+
+#
+# Wpcore-starphone
+#
+# CONFIG_PACKAGE_atest is not set
+# CONFIG_PACKAGE_gmediarender is not set
+CONFIG_PACKAGE_kmod-master-pcm=y
+# CONFIG_PACKAGE_kmod-rt5350-i2s is not set
+# CONFIG_PACKAGE_kmod-rt5350-pcm is not set
+# CONFIG_PACKAGE_kmod-si3050-ctrl is not set
+# CONFIG_PACKAGE_wifi-audio is not set
+CONFIG_PACKAGE_wifi-phone=y
+# CONFIG_PACKAGE_wifi-phone-server is not set

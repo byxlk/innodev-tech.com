@@ -17,8 +17,8 @@ include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/nls.mk
 
 define Package/es9038
-  SECTION:= sxx
-  CATEGORY:= Sxx
+  SECTION:= wpcore-starphone
+  CATEGORY:= Wpcore-starphone
   DEPENDS:= 
   TITLE:= Codec driver for es9038 on rt5350
 endef

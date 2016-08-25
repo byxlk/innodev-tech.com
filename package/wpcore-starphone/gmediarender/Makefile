@@ -19,8 +19,8 @@ include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/nls.mk
 
 define Package/gmediarender
-  SECTION:=sxx
-  CATEGORY:=Sxx
+  SECTION:=wpcore-starphone
+  CATEGORY:=Wpcore-starphone
   DEPENDS:= +gstreamer +glib2 +libupnp \
             +gst-mod-alsa \
             +gst-mod-app \

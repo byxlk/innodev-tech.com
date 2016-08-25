@@ -10,24 +10,24 @@
 include $(TOPDIR)/rules.mk
 include $(INCLUDE_DIR)/kernel.mk
 
-PKG_NAME:=si3050-ctrl
-PKG_VERSION:=2016-08-07
+PKG_NAME:=master-pcm
+PKG_VERSION:=2016-08-04
 PKG_RELEASE=$(PKG_SOURCE_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
 
-define KernelPackage/si3050-ctrl
-    TITLE:= I2S on rt5350
-    SECTION:= sxx
-    CATEGORY:= Sxx
-    DEPENDS:= +kmod-sound-soc-core
+define KernelPackage/master-pcm
+    TITLE:= PCM on rt5350
+    SECTION:= wpcore-starphone
+    CATEGORY:= Wpcore-starphone
+    DEPENDS:= +kmod-sound-core +kmod-sound-soc-core +kmod-ralink-dma
     KCONFIG:=
         
     FILES:=$(PKG_BUILD_DIR)/*.$(LINUX_KMOD_SUFFIX)
-    AUTOLOAD:=$(call AutoLoad,50,si3050-ctrl)
+    AUTOLOAD:=$(call AutoLoad,50,master-pcm sxx-pcm-codec sxx-pcm-machine)
 endef
 
-define KernelPackage/si3050-ctrl/description
+define KernelPackage/master-pcm/description
   I2S on rt5350
 endef
 
@@ -38,7 +38,10 @@ define Build/Prepare
 endef
 
 PKG_EXTRA_KCONFIG:= \
-    CONFIG_SI3050_CTRL=m \
+    CONFIG_RT5350_PCM=m \
+	CONFIG_SXX_PCM_MACHINE=m \
+    CONFIG_SXX_PCM_CODEC=m \
+    
     
 PKG_EXTRA_CFLAGS:= 
 
@@ -53,7 +56,7 @@ define Build/Compile
 		modules
 endef
 
-define KernelPackage/si3050-ctrl/install
+define KernelPackage/master-pcm/install
 endef
 
-$(eval $(call KernelPackage,si3050-ctrl))
+$(eval $(call KernelPackage,master-pcm))

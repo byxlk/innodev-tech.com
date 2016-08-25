@@ -17,14 +17,14 @@ include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/nls.mk
 
 define Package/wifi-audio
-  SECTION:= sxx
-  CATEGORY:= Sxx
+  SECTION:= wpcore-starphone 
+  CATEGORY:= Wpcore-starphone
   DEPENDS:= +gmediarender +kmod-usb-audio +kmod-usb-core +kmod-usb-ohci +kmod-usb-rt305x-dwc_otg +kmod-usb2 +kmod-rt5350-i2s +kmod-ralink-dma
-  TITLE:= Wifi Audio for Sxx
+  TITLE:= Wifi Audio for starphone
 endef
 
 define Package/wifi-audio/description
-  Wifi Audio for Sxx
+  Wifi Audio for Starphone
 endef
 
 define Package/wifi-audio/install
