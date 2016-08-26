@@ -2,10 +2,10 @@ Source-Makefile: feeds/targets/cns21xx/Makefile
 Target: cns21xx
 Target-Board: cns21xx
 Target-Name: Cavium Networks Econa CNS21xx
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: arm
 Target-Arch-Packages: cns21xx
-Target-Features: broken squashfs
+Target-Features: broken gpio squashfs
 Target-Depends: 
 Target-Optimization: -Os -pipe -march=armv4 -mtune=fa526
 CPU-Type: fa526
@@ -31,10 +31,10 @@ Source-Makefile: feeds/targets/cobalt/Makefile
 Target: cobalt
 Target-Board: cobalt
 Target-Name: Cobalt Microservers
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: mipsel
 Target-Arch-Packages: cobalt
-Target-Features: display ext4 pci targz
+Target-Features: display ext4 pci rtc targz usb
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -march=r5000
 CPU-Type: 5k
@@ -50,10 +50,10 @@ Source-Makefile: feeds/targets/ep93xx/Makefile
 Target: ep93xx
 Target-Board: ep93xx
 Target-Name: Cirrus Logic EP93xx
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: arm
 Target-Arch-Packages: ep93xx
-Target-Features: display ext4 sound squashfs targz usb
+Target-Features: display ext4 gpio sound squashfs targz usb
 Target-Depends: 
 Target-Optimization: -Os -pipe -march=armv4t -mtune=arm920t
 CPU-Type: arm920t
@@ -89,10 +89,10 @@ Source-Makefile: feeds/targets/iop32x/Makefile
 Target: iop32x
 Target-Board: iop32x
 Target-Name: Intel IOP32x
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: arm
 Target-Arch-Packages: iop32x
-Target-Features: broken squashfs
+Target-Features: broken gpio pci rtc squashfs
 Target-Depends: 
 Target-Optimization: -Os -pipe -march=armv5te -mtune=xscale
 CPU-Type: xscale
@@ -108,10 +108,10 @@ Source-Makefile: feeds/targets/mpc52xx/Makefile
 Target: mpc52xx
 Target-Board: mpc52xx
 Target-Name: Freescale MPC52xx
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: powerpc
 Target-Arch-Packages: mpc52xx
-Target-Features: ext4 targz
+Target-Features: dt ext4 gpio pci targz usb
 Target-Depends: 
 Target-Optimization: -Os -pipe -mcpu=603e
 CPU-Type: 603e
@@ -127,10 +127,10 @@ Source-Makefile: feeds/targets/mpc83xx/Makefile
 Target: mpc83xx
 Target-Board: mpc83xx
 Target-Name: Freescale MPC83xx
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: powerpc
 Target-Arch-Packages: mpc83xx
-Target-Features: squashfs targz
+Target-Features: dt gpio pci squashfs targz
 Target-Depends: 
 Target-Optimization: -Os -pipe -mcpu=603e
 CPU-Type: 603e
@@ -146,10 +146,10 @@ Source-Makefile: feeds/targets/pxa/Makefile
 Target: pxa
 Target-Board: pxa
 Target-Name: Marvell/Intel PXA2xx
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: arm
 Target-Arch-Packages: pxa
-Target-Features: broken squashfs
+Target-Features: broken gpio squashfs
 Target-Depends: 
 Target-Optimization: -Os -pipe -march=armv5te -mtune=xscale
 CPU-Type: xscale
@@ -185,10 +185,10 @@ Source-Makefile: feeds/targets/sibyte/Makefile
 Target: sibyte
 Target-Board: sibyte
 Target-Name: Broadcom/SiByte SB-1
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: mips
 Target-Arch-Packages: sibyte
-Target-Features: broken fpu ramdisk
+Target-Features: broken fpu pci ramdisk rtc
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -march=sb1
 CPU-Type: sb1
@@ -204,10 +204,10 @@ Source-Makefile: feeds/targets/sparc/Makefile
 Target: sparc
 Target-Board: sparc
 Target-Name: Sun UltraSPARC
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: sparc
 Target-Arch-Packages: sparc
-Target-Features: broken ext4 fpu squashfs tgz
+Target-Features: broken display dt ext4 fpu pci rtc squashfs tgz
 Target-Depends: 
 Target-Optimization: -Os -pipe
 CPU-Type: sparc

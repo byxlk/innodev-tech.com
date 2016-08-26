@@ -2,10 +2,10 @@ Source-Makefile: feeds/targets/ep93xx/Makefile
 Target: ep93xx
 Target-Board: ep93xx
 Target-Name: Cirrus Logic EP93xx
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: arm
 Target-Arch-Packages: ep93xx
-Target-Features: display ext4 sound squashfs targz usb
+Target-Features: display ext4 gpio sound squashfs targz usb
 Target-Depends: 
 Target-Optimization: -Os -pipe -march=armv4t -mtune=arm920t
 CPU-Type: arm920t

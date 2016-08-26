@@ -132,8 +132,8 @@ Description:     Translation for luci-app-ahcp - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-ahcp-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-ahcp-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ahcp
 Conflicts: 
@@ -142,12 +142,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ahcp - no translation
+Title: luci-app-ahcp - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ahcp - Norsk (Norwegian)
+Description:     Translation for luci-app-ahcp - Română (Romanian)
 
 @@
 
@@ -246,8 +246,8 @@ Description:     Translation for luci-app-ahcp - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-ahcp-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-ahcp-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ahcp
 Conflicts: 
@@ -256,17 +256,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ahcp - he translation
+Title: luci-app-ahcp - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ahcp - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-ahcp - Deutsch (German)
 
 @@
 
-Package: luci-i18n-ahcp-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-ahcp-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ahcp
 Conflicts: 
@@ -275,12 +275,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ahcp - ro translation
+Title: luci-app-ahcp - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ahcp - Română (Romanian)
+Description:     Translation for luci-app-ahcp - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-ahcp-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ahcp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-ahcp - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-ahcp - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -322,8 +341,8 @@ Description:     Translation for luci-app-ahcp - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-ahcp-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-ahcp-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ahcp
 Conflicts: 
@@ -332,12 +351,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ahcp - de translation
+Title: luci-app-ahcp - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ahcp - Deutsch (German)
+Description:     Translation for luci-app-ahcp - עִבְרִית (Hebrew)
 
 @@
 
@@ -471,25 +490,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-ahcp - Español (Spanish)
-
-@@
-
-Package: luci-i18n-ahcp-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ahcp
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-ahcp - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-ahcp - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -666,8 +666,8 @@ Description:     Translation for luci-app-asterisk - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-asterisk-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-asterisk-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-asterisk
 Conflicts: 
@@ -676,12 +676,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-asterisk - no translation
+Title: luci-app-asterisk - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-asterisk - Norsk (Norwegian)
+Description:     Translation for luci-app-asterisk - Română (Romanian)
 
 @@
 
@@ -780,8 +780,8 @@ Description:     Translation for luci-app-asterisk - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-asterisk-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-asterisk-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-asterisk
 Conflicts: 
@@ -790,17 +790,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-asterisk - he translation
+Title: luci-app-asterisk - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-asterisk - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-asterisk - Deutsch (German)
 
 @@
 
-Package: luci-i18n-asterisk-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-asterisk-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-asterisk
 Conflicts: 
@@ -809,12 +809,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-asterisk - ro translation
+Title: luci-app-asterisk - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-asterisk - Română (Romanian)
+Description:     Translation for luci-app-asterisk - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-asterisk-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-asterisk
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-asterisk - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-asterisk - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -856,8 +875,8 @@ Description:     Translation for luci-app-asterisk - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-asterisk-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-asterisk-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-asterisk
 Conflicts: 
@@ -866,12 +885,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-asterisk - de translation
+Title: luci-app-asterisk - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-asterisk - Deutsch (German)
+Description:     Translation for luci-app-asterisk - עִבְרִית (Hebrew)
 
 @@
 
@@ -1005,25 +1024,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-asterisk - Español (Spanish)
-
-@@
-
-Package: luci-i18n-asterisk-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-asterisk
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-asterisk - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-asterisk - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -1161,8 +1161,8 @@ Description:     Translation for luci-app-commands - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-commands-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-commands-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-commands
 Conflicts: 
@@ -1171,12 +1171,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-commands - no translation
+Title: luci-app-commands - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-commands - Norsk (Norwegian)
+Description:     Translation for luci-app-commands - Română (Romanian)
 
 @@
 
@@ -1275,8 +1275,8 @@ Description:     Translation for luci-app-commands - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-commands-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-commands-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-commands
 Conflicts: 
@@ -1285,17 +1285,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-commands - he translation
+Title: luci-app-commands - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-commands - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-commands - Deutsch (German)
 
 @@
 
-Package: luci-i18n-commands-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-commands-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-commands
 Conflicts: 
@@ -1304,12 +1304,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-commands - ro translation
+Title: luci-app-commands - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-commands - Română (Romanian)
+Description:     Translation for luci-app-commands - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-commands-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-commands
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-commands - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-commands - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -1351,8 +1370,8 @@ Description:     Translation for luci-app-commands - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-commands-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-commands-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-commands
 Conflicts: 
@@ -1361,12 +1380,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-commands - de translation
+Title: luci-app-commands - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-commands - Deutsch (German)
+Description:     Translation for luci-app-commands - עִבְרִית (Hebrew)
 
 @@
 
@@ -1500,25 +1519,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-commands - Español (Spanish)
-
-@@
-
-Package: luci-i18n-commands-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-commands
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-commands - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-commands - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -1656,8 +1656,8 @@ Description:     Translation for luci-app-coovachilli - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-coovachilli-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-coovachilli-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-coovachilli
 Conflicts: 
@@ -1666,12 +1666,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-coovachilli - no translation
+Title: luci-app-coovachilli - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-coovachilli - Norsk (Norwegian)
+Description:     Translation for luci-app-coovachilli - Română (Romanian)
 
 @@
 
@@ -1770,8 +1770,8 @@ Description:     Translation for luci-app-coovachilli - Tiếng Việt (Vietname
 
 @@
 
-Package: luci-i18n-coovachilli-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-coovachilli-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-coovachilli
 Conflicts: 
@@ -1780,17 +1780,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-coovachilli - he translation
+Title: luci-app-coovachilli - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-coovachilli - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-coovachilli - Deutsch (German)
 
 @@
 
-Package: luci-i18n-coovachilli-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-coovachilli-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-coovachilli
 Conflicts: 
@@ -1799,12 +1799,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-coovachilli - ro translation
+Title: luci-app-coovachilli - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-coovachilli - Română (Romanian)
+Description:     Translation for luci-app-coovachilli - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-coovachilli-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-coovachilli
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -1846,8 +1865,8 @@ Description:     Translation for luci-app-coovachilli - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-coovachilli-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-coovachilli-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-coovachilli
 Conflicts: 
@@ -1856,12 +1875,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-coovachilli - de translation
+Title: luci-app-coovachilli - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-coovachilli - Deutsch (German)
+Description:     Translation for luci-app-coovachilli - עִבְרִית (Hebrew)
 
 @@
 
@@ -1998,25 +2017,6 @@ Description:     Translation for luci-app-coovachilli - Español (Spanish)
 
 @@
 
-Package: luci-i18n-coovachilli-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-coovachilli
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-coovachilli - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-coovachilli - Português do Brasil (Brazialian Portuguese)
-
-@@
-
 Package: luci-i18n-coovachilli-cs
 Default: LUCI_LANG_cs||(ALL&&m)
 Version: x-1
@@ -2143,8 +2143,8 @@ Description:     Translation for luci-app-ddns - Português (Portuguese)
 Christian Schoenebeck <christian.schoenebeck@gmail.com>
 @@
 
-Package: luci-i18n-ddns-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-ddns-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: 2.4.6-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
@@ -2153,13 +2153,13 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ddns - no translation
+Title: luci-app-ddns - ro translation
 Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
 Source: 
 License: Apache-2.0
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ddns - Norsk (Norwegian)
+Description:     Translation for luci-app-ddns - Română (Romanian)
 Christian Schoenebeck <christian.schoenebeck@gmail.com>
 @@
 
@@ -2243,8 +2243,8 @@ Description:     Translation for luci-app-ddns - Tiếng Việt (Vietnamese)
 Christian Schoenebeck <christian.schoenebeck@gmail.com>
 @@
 
-Package: luci-i18n-ddns-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-ddns-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: 2.4.6-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
@@ -2253,18 +2253,18 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ddns - he translation
+Title: luci-app-ddns - de translation
 Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
 Source: 
 License: Apache-2.0
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ddns - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-ddns - Deutsch (German)
 Christian Schoenebeck <christian.schoenebeck@gmail.com>
 @@
 
-Package: luci-i18n-ddns-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-ddns-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: 2.4.6-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
@@ -2273,13 +2273,33 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ddns - ro translation
+Title: luci-app-ddns - no translation
 Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
 Source: 
 License: Apache-2.0
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ddns - Română (Romanian)
+Description:     Translation for luci-app-ddns - Norsk (Norwegian)
+Christian Schoenebeck <christian.schoenebeck@gmail.com>
+@@
+
+Package: luci-i18n-ddns-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: 2.4.6-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-ddns - pt-br translation
+Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
+Source: 
+License: Apache-2.0
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-ddns - Português do Brasil (Brazialian Portuguese)
 Christian Schoenebeck <christian.schoenebeck@gmail.com>
 @@
 
@@ -2303,8 +2323,8 @@ Description:     Translation for luci-app-ddns - 普通话 (Chinese)
 Christian Schoenebeck <christian.schoenebeck@gmail.com>
 @@
 
-Package: luci-i18n-ddns-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-ddns-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: 2.4.6-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
@@ -2313,13 +2333,13 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ddns - de translation
+Title: luci-app-ddns - he translation
 Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
 Source: 
 License: Apache-2.0
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ddns - Deutsch (German)
+Description:     Translation for luci-app-ddns - עִבְרִית (Hebrew)
 Christian Schoenebeck <christian.schoenebeck@gmail.com>
 @@
 
@@ -2440,26 +2460,6 @@ License: Apache-2.0
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-ddns - Español (Spanish)
-Christian Schoenebeck <christian.schoenebeck@gmail.com>
-@@
-
-Package: luci-i18n-ddns-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: 2.4.6-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-ddns - pt-br translation
-Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
-Source: 
-License: Apache-2.0
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-ddns - Português do Brasil (Brazialian Portuguese)
 Christian Schoenebeck <christian.schoenebeck@gmail.com>
 @@
 
@@ -2600,8 +2600,8 @@ Description:     Translation for luci-app-diag-core - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-diag-core-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-diag-core-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-core
 Conflicts: 
@@ -2610,12 +2610,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-diag-core - no translation
+Title: luci-app-diag-core - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-diag-core - Norsk (Norwegian)
+Description:     Translation for luci-app-diag-core - Română (Romanian)
 
 @@
 
@@ -2714,8 +2714,8 @@ Description:     Translation for luci-app-diag-core - Tiếng Việt (Vietnamese
 
 @@
 
-Package: luci-i18n-diag-core-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-diag-core-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-core
 Conflicts: 
@@ -2724,17 +2724,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-diag-core - he translation
+Title: luci-app-diag-core - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-diag-core - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-diag-core - Deutsch (German)
 
 @@
 
-Package: luci-i18n-diag-core-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-diag-core-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-core
 Conflicts: 
@@ -2743,12 +2743,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-diag-core - ro translation
+Title: luci-app-diag-core - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-diag-core - Română (Romanian)
+Description:     Translation for luci-app-diag-core - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-diag-core-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-core
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -2790,8 +2809,8 @@ Description:     Translation for luci-app-diag-core - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-diag-core-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-diag-core-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-core
 Conflicts: 
@@ -2800,12 +2819,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-diag-core - de translation
+Title: luci-app-diag-core - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-diag-core - Deutsch (German)
+Description:     Translation for luci-app-diag-core - עִבְרִית (Hebrew)
 
 @@
 
@@ -2939,25 +2958,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-diag-core - Español (Spanish)
-
-@@
-
-Package: luci-i18n-diag-core-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-core
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-diag-core - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-diag-core - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -3095,8 +3095,8 @@ Description:     Translation for luci-app-diag-devinfo - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-diag-devinfo-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-diag-devinfo-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-devinfo
 Conflicts: 
@@ -3105,12 +3105,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-diag-devinfo - no translation
+Title: luci-app-diag-devinfo - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-diag-devinfo - Norsk (Norwegian)
+Description:     Translation for luci-app-diag-devinfo - Română (Romanian)
 
 @@
 
@@ -3209,8 +3209,8 @@ Description:     Translation for luci-app-diag-devinfo - Tiếng Việt (Vietnam
 
 @@
 
-Package: luci-i18n-diag-devinfo-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-diag-devinfo-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-devinfo
 Conflicts: 
@@ -3219,17 +3219,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-diag-devinfo - he translation
+Title: luci-app-diag-devinfo - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-diag-devinfo - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-diag-devinfo - Deutsch (German)
 
 @@
 
-Package: luci-i18n-diag-devinfo-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-diag-devinfo-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-devinfo
 Conflicts: 
@@ -3238,12 +3238,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-diag-devinfo - ro translation
+Title: luci-app-diag-devinfo - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-diag-devinfo - Română (Romanian)
+Description:     Translation for luci-app-diag-devinfo - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-diag-devinfo-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-devinfo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-devinfo - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-devinfo - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -3285,8 +3304,8 @@ Description:     Translation for luci-app-diag-devinfo - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-diag-devinfo-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-diag-devinfo-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-devinfo
 Conflicts: 
@@ -3295,12 +3314,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-diag-devinfo - de translation
+Title: luci-app-diag-devinfo - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-diag-devinfo - Deutsch (German)
+Description:     Translation for luci-app-diag-devinfo - עִבְרִית (Hebrew)
 
 @@
 
@@ -3434,25 +3453,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-diag-devinfo - Español (Spanish)
-
-@@
-
-Package: luci-i18n-diag-devinfo-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-devinfo
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-diag-devinfo - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-diag-devinfo - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -3610,8 +3610,8 @@ Description:     Translation for luci-app-firewall - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-firewall-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-firewall-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-firewall
 Conflicts: 
@@ -3620,12 +3620,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-firewall - no translation
+Title: luci-app-firewall - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-firewall - Norsk (Norwegian)
+Description:     Translation for luci-app-firewall - Română (Romanian)
 
 @@
 
@@ -3724,8 +3724,8 @@ Description:     Translation for luci-app-firewall - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-firewall-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-firewall-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-firewall
 Conflicts: 
@@ -3734,17 +3734,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-firewall - he translation
+Title: luci-app-firewall - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-firewall - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-firewall - Deutsch (German)
 
 @@
 
-Package: luci-i18n-firewall-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-firewall-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-firewall
 Conflicts: 
@@ -3753,12 +3753,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-firewall - ro translation
+Title: luci-app-firewall - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-firewall - Română (Romanian)
+Description:     Translation for luci-app-firewall - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-firewall-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-firewall
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-firewall - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-firewall - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -3800,8 +3819,8 @@ Description:     Translation for luci-app-firewall - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-firewall-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-firewall-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-firewall
 Conflicts: 
@@ -3810,12 +3829,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-firewall - de translation
+Title: luci-app-firewall - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-firewall - Deutsch (German)
+Description:     Translation for luci-app-firewall - עִבְרִית (Hebrew)
 
 @@
 
@@ -3949,25 +3968,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-firewall - Español (Spanish)
-
-@@
-
-Package: luci-i18n-firewall-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-firewall
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-firewall - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-firewall - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -4125,8 +4125,8 @@ Description:     Translation for luci-app-freifunk-policyrouting - Slovenčina (
 
 @@
 
-Package: luci-i18n-freifunk-policyrouting-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-freifunk-policyrouting-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-freifunk-policyrouting
 Conflicts: 
@@ -4135,12 +4135,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-freifunk-policyrouting - no translation
+Title: luci-app-freifunk-policyrouting - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-freifunk-policyrouting - Norsk (Norwegian)
+Description:     Translation for luci-app-freifunk-policyrouting - Română (Romanian)
 
 @@
 
@@ -4239,8 +4239,8 @@ Description:     Translation for luci-app-freifunk-policyrouting - Tiếng Việ
 
 @@
 
-Package: luci-i18n-freifunk-policyrouting-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-freifunk-policyrouting-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-freifunk-policyrouting
 Conflicts: 
@@ -4249,17 +4249,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-freifunk-policyrouting - he translation
+Title: luci-app-freifunk-policyrouting - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-freifunk-policyrouting - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-freifunk-policyrouting - Deutsch (German)
 
 @@
 
-Package: luci-i18n-freifunk-policyrouting-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-freifunk-policyrouting-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-freifunk-policyrouting
 Conflicts: 
@@ -4268,12 +4268,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-freifunk-policyrouting - ro translation
+Title: luci-app-freifunk-policyrouting - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-freifunk-policyrouting - Română (Romanian)
+Description:     Translation for luci-app-freifunk-policyrouting - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-freifunk-policyrouting-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-freifunk-policyrouting
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-freifunk-policyrouting - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-freifunk-policyrouting - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -4315,8 +4334,8 @@ Description:     Translation for luci-app-freifunk-policyrouting - 普通话 (Ch
 
 @@
 
-Package: luci-i18n-freifunk-policyrouting-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-freifunk-policyrouting-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-freifunk-policyrouting
 Conflicts: 
@@ -4325,12 +4344,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-freifunk-policyrouting - de translation
+Title: luci-app-freifunk-policyrouting - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-freifunk-policyrouting - Deutsch (German)
+Description:     Translation for luci-app-freifunk-policyrouting - עִבְרִית (Hebrew)
 
 @@
 
@@ -4464,25 +4483,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-freifunk-policyrouting - Español (Spanish)
-
-@@
-
-Package: luci-i18n-freifunk-policyrouting-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-freifunk-policyrouting
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-freifunk-policyrouting - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-freifunk-policyrouting - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -4681,8 +4681,8 @@ Description:     Translation for luci-app-hd-idle - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-hd-idle-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-hd-idle-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-hd-idle
 Conflicts: 
@@ -4691,12 +4691,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-hd-idle - no translation
+Title: luci-app-hd-idle - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-hd-idle - Norsk (Norwegian)
+Description:     Translation for luci-app-hd-idle - Română (Romanian)
 
 @@
 
@@ -4795,8 +4795,8 @@ Description:     Translation for luci-app-hd-idle - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-hd-idle-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-hd-idle-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-hd-idle
 Conflicts: 
@@ -4805,17 +4805,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-hd-idle - he translation
+Title: luci-app-hd-idle - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-hd-idle - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-hd-idle - Deutsch (German)
 
 @@
 
-Package: luci-i18n-hd-idle-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-hd-idle-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-hd-idle
 Conflicts: 
@@ -4824,12 +4824,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-hd-idle - ro translation
+Title: luci-app-hd-idle - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-hd-idle - Română (Romanian)
+Description:     Translation for luci-app-hd-idle - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-hd-idle-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-hd-idle
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-hd-idle - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-hd-idle - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -4871,8 +4890,8 @@ Description:     Translation for luci-app-hd-idle - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-hd-idle-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-hd-idle-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-hd-idle
 Conflicts: 
@@ -4881,12 +4900,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-hd-idle - de translation
+Title: luci-app-hd-idle - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-hd-idle - Deutsch (German)
+Description:     Translation for luci-app-hd-idle - עִבְרִית (Hebrew)
 
 @@
 
@@ -5020,25 +5039,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-hd-idle - Español (Spanish)
-
-@@
-
-Package: luci-i18n-hd-idle-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-hd-idle
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-hd-idle - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-hd-idle - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -5196,8 +5196,8 @@ Description:     Translation for luci-app-meshwizard - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-meshwizard-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-meshwizard-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-meshwizard
 Conflicts: 
@@ -5206,12 +5206,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-meshwizard - no translation
+Title: luci-app-meshwizard - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-meshwizard - Norsk (Norwegian)
+Description:     Translation for luci-app-meshwizard - Română (Romanian)
 
 @@
 
@@ -5310,8 +5310,8 @@ Description:     Translation for luci-app-meshwizard - Tiếng Việt (Vietnames
 
 @@
 
-Package: luci-i18n-meshwizard-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-meshwizard-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-meshwizard
 Conflicts: 
@@ -5320,17 +5320,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-meshwizard - he translation
+Title: luci-app-meshwizard - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-meshwizard - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-meshwizard - Deutsch (German)
 
 @@
 
-Package: luci-i18n-meshwizard-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-meshwizard-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-meshwizard
 Conflicts: 
@@ -5339,12 +5339,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-meshwizard - ro translation
+Title: luci-app-meshwizard - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-meshwizard - Română (Romanian)
+Description:     Translation for luci-app-meshwizard - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-meshwizard-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-meshwizard
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-meshwizard - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-meshwizard - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -5386,8 +5405,8 @@ Description:     Translation for luci-app-meshwizard - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-meshwizard-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-meshwizard-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-meshwizard
 Conflicts: 
@@ -5396,12 +5415,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-meshwizard - de translation
+Title: luci-app-meshwizard - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-meshwizard - Deutsch (German)
+Description:     Translation for luci-app-meshwizard - עִבְרִית (Hebrew)
 
 @@
 
@@ -5535,25 +5554,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-meshwizard - Español (Spanish)
-
-@@
-
-Package: luci-i18n-meshwizard-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-meshwizard
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-meshwizard - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-meshwizard - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -5691,8 +5691,8 @@ Description:     Translation for luci-app-minidlna - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-minidlna-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-minidlna-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-minidlna
 Conflicts: 
@@ -5701,12 +5701,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-minidlna - no translation
+Title: luci-app-minidlna - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-minidlna - Norsk (Norwegian)
+Description:     Translation for luci-app-minidlna - Română (Romanian)
 
 @@
 
@@ -5805,8 +5805,8 @@ Description:     Translation for luci-app-minidlna - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-minidlna-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-minidlna-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-minidlna
 Conflicts: 
@@ -5815,17 +5815,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-minidlna - he translation
+Title: luci-app-minidlna - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-minidlna - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-minidlna - Deutsch (German)
 
 @@
 
-Package: luci-i18n-minidlna-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-minidlna-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-minidlna
 Conflicts: 
@@ -5834,12 +5834,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-minidlna - ro translation
+Title: luci-app-minidlna - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-minidlna - Română (Romanian)
+Description:     Translation for luci-app-minidlna - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-minidlna-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-minidlna
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -5881,8 +5900,8 @@ Description:     Translation for luci-app-minidlna - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-minidlna-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-minidlna-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-minidlna
 Conflicts: 
@@ -5891,12 +5910,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-minidlna - de translation
+Title: luci-app-minidlna - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-minidlna - Deutsch (German)
+Description:     Translation for luci-app-minidlna - עִבְרִית (Hebrew)
 
 @@
 
@@ -6030,25 +6049,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-minidlna - Español (Spanish)
-
-@@
-
-Package: luci-i18n-minidlna-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-minidlna
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-minidlna - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-minidlna - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -6225,8 +6225,8 @@ Description:     Translation for luci-app-mmc-over-gpio - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-mmc-over-gpio-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-mmc-over-gpio-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-mmc-over-gpio
 Conflicts: 
@@ -6235,12 +6235,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-mmc-over-gpio - no translation
+Title: luci-app-mmc-over-gpio - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-mmc-over-gpio - Norsk (Norwegian)
+Description:     Translation for luci-app-mmc-over-gpio - Română (Romanian)
 
 @@
 
@@ -6339,8 +6339,8 @@ Description:     Translation for luci-app-mmc-over-gpio - Tiếng Việt (Vietna
 
 @@
 
-Package: luci-i18n-mmc-over-gpio-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-mmc-over-gpio-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-mmc-over-gpio
 Conflicts: 
@@ -6349,17 +6349,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-mmc-over-gpio - he translation
+Title: luci-app-mmc-over-gpio - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-mmc-over-gpio - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-mmc-over-gpio - Deutsch (German)
 
 @@
 
-Package: luci-i18n-mmc-over-gpio-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-mmc-over-gpio-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-mmc-over-gpio
 Conflicts: 
@@ -6368,12 +6368,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-mmc-over-gpio - ro translation
+Title: luci-app-mmc-over-gpio - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-mmc-over-gpio - Română (Romanian)
+Description:     Translation for luci-app-mmc-over-gpio - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-mmc-over-gpio-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-mmc-over-gpio
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-mmc-over-gpio - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-mmc-over-gpio - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -6415,8 +6434,8 @@ Description:     Translation for luci-app-mmc-over-gpio - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-mmc-over-gpio-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-mmc-over-gpio-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-mmc-over-gpio
 Conflicts: 
@@ -6425,12 +6444,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-mmc-over-gpio - de translation
+Title: luci-app-mmc-over-gpio - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-mmc-over-gpio - Deutsch (German)
+Description:     Translation for luci-app-mmc-over-gpio - עִבְרִית (Hebrew)
 
 @@
 
@@ -6564,25 +6583,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-mmc-over-gpio - Español (Spanish)
-
-@@
-
-Package: luci-i18n-mmc-over-gpio-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-mmc-over-gpio
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-mmc-over-gpio - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-mmc-over-gpio - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -6720,8 +6720,8 @@ Description:     Translation for luci-app-multiwan - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-multiwan-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-multiwan-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-multiwan
 Conflicts: 
@@ -6730,12 +6730,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-multiwan - no translation
+Title: luci-app-multiwan - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-multiwan - Norsk (Norwegian)
+Description:     Translation for luci-app-multiwan - Română (Romanian)
 
 @@
 
@@ -6834,8 +6834,8 @@ Description:     Translation for luci-app-multiwan - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-multiwan-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-multiwan-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-multiwan
 Conflicts: 
@@ -6844,17 +6844,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-multiwan - he translation
+Title: luci-app-multiwan - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-multiwan - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-multiwan - Deutsch (German)
 
 @@
 
-Package: luci-i18n-multiwan-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-multiwan-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-multiwan
 Conflicts: 
@@ -6863,12 +6863,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-multiwan - ro translation
+Title: luci-app-multiwan - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-multiwan - Română (Romanian)
+Description:     Translation for luci-app-multiwan - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-multiwan-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-multiwan
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-multiwan - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-multiwan - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -6910,8 +6929,8 @@ Description:     Translation for luci-app-multiwan - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-multiwan-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-multiwan-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-multiwan
 Conflicts: 
@@ -6920,12 +6939,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-multiwan - de translation
+Title: luci-app-multiwan - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-multiwan - Deutsch (German)
+Description:     Translation for luci-app-multiwan - עִבְרִית (Hebrew)
 
 @@
 
@@ -7059,25 +7078,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-multiwan - Español (Spanish)
-
-@@
-
-Package: luci-i18n-multiwan-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-multiwan
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-multiwan - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-multiwan - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -7215,8 +7215,8 @@ Description:     Translation for luci-app-ntpc - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-ntpc-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-ntpc-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ntpc
 Conflicts: 
@@ -7225,12 +7225,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ntpc - no translation
+Title: luci-app-ntpc - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ntpc - Norsk (Norwegian)
+Description:     Translation for luci-app-ntpc - Română (Romanian)
 
 @@
 
@@ -7329,8 +7329,8 @@ Description:     Translation for luci-app-ntpc - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-ntpc-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-ntpc-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ntpc
 Conflicts: 
@@ -7339,17 +7339,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ntpc - he translation
+Title: luci-app-ntpc - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ntpc - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-ntpc - Deutsch (German)
 
 @@
 
-Package: luci-i18n-ntpc-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-ntpc-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ntpc
 Conflicts: 
@@ -7358,12 +7358,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ntpc - ro translation
+Title: luci-app-ntpc - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ntpc - Română (Romanian)
+Description:     Translation for luci-app-ntpc - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-ntpc-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ntpc
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-ntpc - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-ntpc - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -7405,8 +7424,8 @@ Description:     Translation for luci-app-ntpc - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-ntpc-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-ntpc-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ntpc
 Conflicts: 
@@ -7415,12 +7434,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ntpc - de translation
+Title: luci-app-ntpc - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ntpc - Deutsch (German)
+Description:     Translation for luci-app-ntpc - עִבְרִית (Hebrew)
 
 @@
 
@@ -7554,25 +7573,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-ntpc - Español (Spanish)
-
-@@
-
-Package: luci-i18n-ntpc-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ntpc
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-ntpc - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-ntpc - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -7730,8 +7730,8 @@ Description:     Translation for luci-app-olsr - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-olsr-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-olsr-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-olsr
 Conflicts: 
@@ -7740,12 +7740,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-olsr - no translation
+Title: luci-app-olsr - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-olsr - Norsk (Norwegian)
+Description:     Translation for luci-app-olsr - Română (Romanian)
 
 @@
 
@@ -7844,8 +7844,8 @@ Description:     Translation for luci-app-olsr - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-olsr-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-olsr-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-olsr
 Conflicts: 
@@ -7854,17 +7854,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-olsr - he translation
+Title: luci-app-olsr - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-olsr - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-olsr - Deutsch (German)
 
 @@
 
-Package: luci-i18n-olsr-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-olsr-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-olsr
 Conflicts: 
@@ -7873,12 +7873,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-olsr - ro translation
+Title: luci-app-olsr - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-olsr - Română (Romanian)
+Description:     Translation for luci-app-olsr - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-olsr-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-olsr
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-olsr - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-olsr - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -7920,8 +7939,8 @@ Description:     Translation for luci-app-olsr - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-olsr-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-olsr-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-olsr
 Conflicts: 
@@ -7930,12 +7949,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-olsr - de translation
+Title: luci-app-olsr - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-olsr - Deutsch (German)
+Description:     Translation for luci-app-olsr - עִבְרִית (Hebrew)
 
 @@
 
@@ -8069,25 +8088,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-olsr - Español (Spanish)
-
-@@
-
-Package: luci-i18n-olsr-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-olsr
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-olsr - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-olsr - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -8265,8 +8265,8 @@ Description:     Translation for luci-app-openvpn - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-openvpn-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-openvpn-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-openvpn
 Conflicts: 
@@ -8275,12 +8275,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-openvpn - no translation
+Title: luci-app-openvpn - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-openvpn - Norsk (Norwegian)
+Description:     Translation for luci-app-openvpn - Română (Romanian)
 
 @@
 
@@ -8379,8 +8379,8 @@ Description:     Translation for luci-app-openvpn - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-openvpn-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-openvpn-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-openvpn
 Conflicts: 
@@ -8389,17 +8389,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-openvpn - he translation
+Title: luci-app-openvpn - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-openvpn - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-openvpn - Deutsch (German)
 
 @@
 
-Package: luci-i18n-openvpn-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-openvpn-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-openvpn
 Conflicts: 
@@ -8408,12 +8408,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-openvpn - ro translation
+Title: luci-app-openvpn - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-openvpn - Română (Romanian)
+Description:     Translation for luci-app-openvpn - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-openvpn-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-openvpn
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-openvpn - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-openvpn - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -8455,8 +8474,8 @@ Description:     Translation for luci-app-openvpn - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-openvpn-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-openvpn-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-openvpn
 Conflicts: 
@@ -8465,12 +8484,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-openvpn - de translation
+Title: luci-app-openvpn - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-openvpn - Deutsch (German)
+Description:     Translation for luci-app-openvpn - עִבְרִית (Hebrew)
 
 @@
 
@@ -8604,25 +8623,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-openvpn - Español (Spanish)
-
-@@
-
-Package: luci-i18n-openvpn-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-openvpn
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-openvpn - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-openvpn - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -8760,8 +8760,8 @@ Description:     Translation for luci-app-p2pblock - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-p2pblock-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-p2pblock-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-p2pblock
 Conflicts: 
@@ -8770,12 +8770,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-p2pblock - no translation
+Title: luci-app-p2pblock - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-p2pblock - Norsk (Norwegian)
+Description:     Translation for luci-app-p2pblock - Română (Romanian)
 
 @@
 
@@ -8874,8 +8874,8 @@ Description:     Translation for luci-app-p2pblock - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-p2pblock-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-p2pblock-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-p2pblock
 Conflicts: 
@@ -8884,17 +8884,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-p2pblock - he translation
+Title: luci-app-p2pblock - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-p2pblock - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-p2pblock - Deutsch (German)
 
 @@
 
-Package: luci-i18n-p2pblock-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-p2pblock-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-p2pblock
 Conflicts: 
@@ -8903,12 +8903,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-p2pblock - ro translation
+Title: luci-app-p2pblock - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-p2pblock - Română (Romanian)
+Description:     Translation for luci-app-p2pblock - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-p2pblock-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-p2pblock
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-p2pblock - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-p2pblock - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -8950,8 +8969,8 @@ Description:     Translation for luci-app-p2pblock - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-p2pblock-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-p2pblock-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-p2pblock
 Conflicts: 
@@ -8960,12 +8979,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-p2pblock - de translation
+Title: luci-app-p2pblock - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-p2pblock - Deutsch (German)
+Description:     Translation for luci-app-p2pblock - עִבְרִית (Hebrew)
 
 @@
 
@@ -9099,25 +9118,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-p2pblock - Español (Spanish)
-
-@@
-
-Package: luci-i18n-p2pblock-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-p2pblock
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-p2pblock - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-p2pblock - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -9255,8 +9255,8 @@ Description:     Translation for luci-app-p910nd - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-p910nd-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-p910nd-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-p910nd
 Conflicts: 
@@ -9265,12 +9265,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-p910nd - no translation
+Title: luci-app-p910nd - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-p910nd - Norsk (Norwegian)
+Description:     Translation for luci-app-p910nd - Română (Romanian)
 
 @@
 
@@ -9369,8 +9369,8 @@ Description:     Translation for luci-app-p910nd - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-p910nd-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-p910nd-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-p910nd
 Conflicts: 
@@ -9379,17 +9379,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-p910nd - he translation
+Title: luci-app-p910nd - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-p910nd - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-p910nd - Deutsch (German)
 
 @@
 
-Package: luci-i18n-p910nd-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-p910nd-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-p910nd
 Conflicts: 
@@ -9398,12 +9398,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-p910nd - ro translation
+Title: luci-app-p910nd - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-p910nd - Română (Romanian)
+Description:     Translation for luci-app-p910nd - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-p910nd-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-p910nd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-p910nd - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-p910nd - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -9445,8 +9464,8 @@ Description:     Translation for luci-app-p910nd - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-p910nd-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-p910nd-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-p910nd
 Conflicts: 
@@ -9455,12 +9474,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-p910nd - de translation
+Title: luci-app-p910nd - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-p910nd - Deutsch (German)
+Description:     Translation for luci-app-p910nd - עִבְרִית (Hebrew)
 
 @@
 
@@ -9597,25 +9616,6 @@ Description:     Translation for luci-app-p910nd - Español (Spanish)
 
 @@
 
-Package: luci-i18n-p910nd-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-p910nd
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-p910nd - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-p910nd - Português do Brasil (Brazialian Portuguese)
-
-@@
-
 Package: luci-i18n-p910nd-cs
 Default: LUCI_LANG_cs||(ALL&&m)
 Version: x-1
@@ -9678,7 +9678,7 @@ Source-Makefile: feeds/luci/applications/luci-app-pbx/Makefile
 Package: luci-app-pbx
 Submenu: 3. Applications
 Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +asterisk18 +asterisk18-app-authenticate +asterisk18-app-disa +asterisk18-app-setcallerid +asterisk18-app-system +asterisk18-chan-gtalk +asterisk18-codec-a-mu +asterisk18-codec-alaw +asterisk18-func-cut +asterisk18-res-clioriginate +asterisk18-func-channel +asterisk18-chan-local +asterisk18-app-record +asterisk18-app-senddtmf +asterisk18-res-crypto
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @BROKEN +asterisk18 +asterisk18-app-authenticate +asterisk18-app-disa +asterisk18-app-setcallerid +asterisk18-app-system +asterisk18-chan-gtalk +asterisk18-codec-a-mu +asterisk18-codec-alaw +asterisk18-func-cut +asterisk18-res-clioriginate +asterisk18-func-channel +asterisk18-chan-local +asterisk18-app-record +asterisk18-app-senddtmf +asterisk18-res-crypto
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -9750,8 +9750,8 @@ Description:     Translation for luci-app-pbx - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-pbx-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-pbx-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx
 Conflicts: 
@@ -9760,12 +9760,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-pbx - no translation
+Title: luci-app-pbx - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-pbx - Norsk (Norwegian)
+Description:     Translation for luci-app-pbx - Română (Romanian)
 
 @@
 
@@ -9864,8 +9864,8 @@ Description:     Translation for luci-app-pbx - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-pbx-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-pbx-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx
 Conflicts: 
@@ -9874,17 +9874,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-pbx - he translation
+Title: luci-app-pbx - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-pbx - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-pbx - Deutsch (German)
 
 @@
 
-Package: luci-i18n-pbx-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-pbx-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx
 Conflicts: 
@@ -9893,12 +9893,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-pbx - ro translation
+Title: luci-app-pbx - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-pbx - Română (Romanian)
+Description:     Translation for luci-app-pbx - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-pbx-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-pbx - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-pbx - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -9940,8 +9959,8 @@ Description:     Translation for luci-app-pbx - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-pbx-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-pbx-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx
 Conflicts: 
@@ -9950,12 +9969,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-pbx - de translation
+Title: luci-app-pbx - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-pbx - Deutsch (German)
+Description:     Translation for luci-app-pbx - עִבְרִית (Hebrew)
 
 @@
 
@@ -10092,25 +10111,6 @@ Description:     Translation for luci-app-pbx - Español (Spanish)
 
 @@
 
-Package: luci-i18n-pbx-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-pbx - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-pbx - Português do Brasil (Brazialian Portuguese)
-
-@@
-
 Package: luci-i18n-pbx-cs
 Default: LUCI_LANG_cs||(ALL&&m)
 Version: x-1
@@ -10173,7 +10173,7 @@ Source-Makefile: feeds/luci/applications/luci-app-pbx-voicemail/Makefile
 Package: luci-app-pbx-voicemail
 Submenu: 3. Applications
 Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +luci-app-pbx +asterisk18 +msmtp +coreutils-base64
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +luci-app-pbx +asterisk18 +msmtp +coreutils-base64 @BROKEN
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -10245,8 +10245,8 @@ Description:     Translation for luci-app-pbx-voicemail - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-pbx-voicemail-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-pbx-voicemail-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx-voicemail
 Conflicts: 
@@ -10255,12 +10255,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-pbx-voicemail - no translation
+Title: luci-app-pbx-voicemail - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-pbx-voicemail - Norsk (Norwegian)
+Description:     Translation for luci-app-pbx-voicemail - Română (Romanian)
 
 @@
 
@@ -10359,8 +10359,8 @@ Description:     Translation for luci-app-pbx-voicemail - Tiếng Việt (Vietna
 
 @@
 
-Package: luci-i18n-pbx-voicemail-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-pbx-voicemail-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx-voicemail
 Conflicts: 
@@ -10369,17 +10369,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-pbx-voicemail - he translation
+Title: luci-app-pbx-voicemail - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-pbx-voicemail - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-pbx-voicemail - Deutsch (German)
 
 @@
 
-Package: luci-i18n-pbx-voicemail-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-pbx-voicemail-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx-voicemail
 Conflicts: 
@@ -10388,12 +10388,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-pbx-voicemail - ro translation
+Title: luci-app-pbx-voicemail - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-pbx-voicemail - Română (Romanian)
+Description:     Translation for luci-app-pbx-voicemail - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-pbx-voicemail-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx-voicemail
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-pbx-voicemail - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-pbx-voicemail - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -10435,8 +10454,8 @@ Description:     Translation for luci-app-pbx-voicemail - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-pbx-voicemail-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-pbx-voicemail-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx-voicemail
 Conflicts: 
@@ -10445,12 +10464,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-pbx-voicemail - de translation
+Title: luci-app-pbx-voicemail - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-pbx-voicemail - Deutsch (German)
+Description:     Translation for luci-app-pbx-voicemail - עִבְרִית (Hebrew)
 
 @@
 
@@ -10584,25 +10603,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-pbx-voicemail - Español (Spanish)
-
-@@
-
-Package: luci-i18n-pbx-voicemail-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx-voicemail
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-pbx-voicemail - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-pbx-voicemail - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -10740,8 +10740,8 @@ Description:     Translation for luci-app-polipo - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-polipo-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-polipo-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-polipo
 Conflicts: 
@@ -10750,12 +10750,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-polipo - no translation
+Title: luci-app-polipo - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-polipo - Norsk (Norwegian)
+Description:     Translation for luci-app-polipo - Română (Romanian)
 
 @@
 
@@ -10854,8 +10854,8 @@ Description:     Translation for luci-app-polipo - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-polipo-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-polipo-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-polipo
 Conflicts: 
@@ -10864,17 +10864,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-polipo - he translation
+Title: luci-app-polipo - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-polipo - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-polipo - Deutsch (German)
 
 @@
 
-Package: luci-i18n-polipo-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-polipo-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-polipo
 Conflicts: 
@@ -10883,12 +10883,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-polipo - ro translation
+Title: luci-app-polipo - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-polipo - Română (Romanian)
+Description:     Translation for luci-app-polipo - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-polipo-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-polipo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-polipo - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-polipo - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -10930,8 +10949,8 @@ Description:     Translation for luci-app-polipo - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-polipo-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-polipo-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-polipo
 Conflicts: 
@@ -10940,12 +10959,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-polipo - de translation
+Title: luci-app-polipo - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-polipo - Deutsch (German)
+Description:     Translation for luci-app-polipo - עִבְרִית (Hebrew)
 
 @@
 
@@ -11079,25 +11098,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-polipo - Español (Spanish)
-
-@@
-
-Package: luci-i18n-polipo-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-polipo
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-polipo - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-polipo - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -11324,8 +11324,8 @@ Description:     Translation for luci-app-qos - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-qos-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-qos-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-qos
 Conflicts: 
@@ -11334,12 +11334,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-qos - no translation
+Title: luci-app-qos - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-qos - Norsk (Norwegian)
+Description:     Translation for luci-app-qos - Română (Romanian)
 
 @@
 
@@ -11438,8 +11438,8 @@ Description:     Translation for luci-app-qos - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-qos-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-qos-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-qos
 Conflicts: 
@@ -11448,17 +11448,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-qos - he translation
+Title: luci-app-qos - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-qos - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-qos - Deutsch (German)
 
 @@
 
-Package: luci-i18n-qos-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-qos-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-qos
 Conflicts: 
@@ -11467,12 +11467,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-qos - ro translation
+Title: luci-app-qos - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-qos - Română (Romanian)
+Description:     Translation for luci-app-qos - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-qos-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-qos
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-qos - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-qos - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -11514,8 +11533,8 @@ Description:     Translation for luci-app-qos - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-qos-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-qos-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-qos
 Conflicts: 
@@ -11524,12 +11543,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-qos - de translation
+Title: luci-app-qos - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-qos - Deutsch (German)
+Description:     Translation for luci-app-qos - עִבְרִית (Hebrew)
 
 @@
 
@@ -11663,25 +11682,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-qos - Español (Spanish)
-
-@@
-
-Package: luci-i18n-qos-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-qos
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-qos - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-qos - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -11891,8 +11891,8 @@ Description:     Translation for luci-app-radvd - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-radvd-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-radvd-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-radvd
 Conflicts: 
@@ -11901,12 +11901,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-radvd - no translation
+Title: luci-app-radvd - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-radvd - Norsk (Norwegian)
+Description:     Translation for luci-app-radvd - Română (Romanian)
 
 @@
 
@@ -12005,8 +12005,8 @@ Description:     Translation for luci-app-radvd - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-radvd-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-radvd-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-radvd
 Conflicts: 
@@ -12015,17 +12015,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-radvd - he translation
+Title: luci-app-radvd - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-radvd - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-radvd - Deutsch (German)
 
 @@
 
-Package: luci-i18n-radvd-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-radvd-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-radvd
 Conflicts: 
@@ -12034,12 +12034,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-radvd - ro translation
+Title: luci-app-radvd - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-radvd - Română (Romanian)
+Description:     Translation for luci-app-radvd - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-radvd-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-radvd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-radvd - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-radvd - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -12081,8 +12100,8 @@ Description:     Translation for luci-app-radvd - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-radvd-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-radvd-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-radvd
 Conflicts: 
@@ -12091,12 +12110,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-radvd - de translation
+Title: luci-app-radvd - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-radvd - Deutsch (German)
+Description:     Translation for luci-app-radvd - עִבְרִית (Hebrew)
 
 @@
 
@@ -12230,25 +12249,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-radvd - Español (Spanish)
-
-@@
-
-Package: luci-i18n-radvd-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-radvd
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-radvd - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-radvd - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -12386,8 +12386,8 @@ Description:     Translation for luci-app-samba - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-samba-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-samba-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-samba
 Conflicts: 
@@ -12396,12 +12396,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-samba - no translation
+Title: luci-app-samba - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-samba - Norsk (Norwegian)
+Description:     Translation for luci-app-samba - Română (Romanian)
 
 @@
 
@@ -12500,8 +12500,8 @@ Description:     Translation for luci-app-samba - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-samba-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-samba-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-samba
 Conflicts: 
@@ -12510,17 +12510,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-samba - he translation
+Title: luci-app-samba - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-samba - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-samba - Deutsch (German)
 
 @@
 
-Package: luci-i18n-samba-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-samba-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-samba
 Conflicts: 
@@ -12529,12 +12529,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-samba - ro translation
+Title: luci-app-samba - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-samba - Română (Romanian)
+Description:     Translation for luci-app-samba - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-samba-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-samba
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-samba - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-samba - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -12576,8 +12595,8 @@ Description:     Translation for luci-app-samba - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-samba-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-samba-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-samba
 Conflicts: 
@@ -12586,12 +12605,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-samba - de translation
+Title: luci-app-samba - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-samba - Deutsch (German)
+Description:     Translation for luci-app-samba - עִבְרִית (Hebrew)
 
 @@
 
@@ -12725,25 +12744,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-samba - Español (Spanish)
-
-@@
-
-Package: luci-i18n-samba-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-samba
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-samba - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-samba - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -12999,8 +12999,8 @@ Description:     Translation for luci-app-splash - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-splash-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-splash-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-splash
 Conflicts: 
@@ -13009,12 +13009,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-splash - no translation
+Title: luci-app-splash - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-splash - Norsk (Norwegian)
+Description:     Translation for luci-app-splash - Română (Romanian)
 
 @@
 
@@ -13113,8 +13113,8 @@ Description:     Translation for luci-app-splash - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-splash-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-splash-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-splash
 Conflicts: 
@@ -13123,17 +13123,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-splash - he translation
+Title: luci-app-splash - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-splash - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-splash - Deutsch (German)
 
 @@
 
-Package: luci-i18n-splash-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-splash-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-splash
 Conflicts: 
@@ -13142,12 +13142,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-splash - ro translation
+Title: luci-app-splash - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-splash - Română (Romanian)
+Description:     Translation for luci-app-splash - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-splash-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-splash
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-splash - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-splash - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -13189,8 +13208,8 @@ Description:     Translation for luci-app-splash - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-splash-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-splash-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-splash
 Conflicts: 
@@ -13199,12 +13218,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-splash - de translation
+Title: luci-app-splash - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-splash - Deutsch (German)
+Description:     Translation for luci-app-splash - עִבְרִית (Hebrew)
 
 @@
 
@@ -13338,25 +13357,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-splash - Español (Spanish)
-
-@@
-
-Package: luci-i18n-splash-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-splash
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-splash - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-splash - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -13494,8 +13494,8 @@ Description:     Translation for luci-app-statistics - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-statistics-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-statistics-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-statistics
 Conflicts: 
@@ -13504,12 +13504,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-statistics - no translation
+Title: luci-app-statistics - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-statistics - Norsk (Norwegian)
+Description:     Translation for luci-app-statistics - Română (Romanian)
 
 @@
 
@@ -13608,8 +13608,8 @@ Description:     Translation for luci-app-statistics - Tiếng Việt (Vietnames
 
 @@
 
-Package: luci-i18n-statistics-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-statistics-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-statistics
 Conflicts: 
@@ -13618,17 +13618,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-statistics - he translation
+Title: luci-app-statistics - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-statistics - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-statistics - Deutsch (German)
 
 @@
 
-Package: luci-i18n-statistics-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-statistics-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-statistics
 Conflicts: 
@@ -13637,12 +13637,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-statistics - ro translation
+Title: luci-app-statistics - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-statistics - Română (Romanian)
+Description:     Translation for luci-app-statistics - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-statistics-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-statistics
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-statistics - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-statistics - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -13684,8 +13703,8 @@ Description:     Translation for luci-app-statistics - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-statistics-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-statistics-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-statistics
 Conflicts: 
@@ -13694,12 +13713,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-statistics - de translation
+Title: luci-app-statistics - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-statistics - Deutsch (German)
+Description:     Translation for luci-app-statistics - עִבְרִית (Hebrew)
 
 @@
 
@@ -13833,25 +13852,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-statistics - Español (Spanish)
-
-@@
-
-Package: luci-i18n-statistics-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-statistics
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-statistics - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-statistics - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -13989,8 +13989,8 @@ Description:     Translation for luci-app-tinyproxy - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-tinyproxy-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-tinyproxy-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-tinyproxy
 Conflicts: 
@@ -13999,12 +13999,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-tinyproxy - no translation
+Title: luci-app-tinyproxy - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-tinyproxy - Norsk (Norwegian)
+Description:     Translation for luci-app-tinyproxy - Română (Romanian)
 
 @@
 
@@ -14103,8 +14103,8 @@ Description:     Translation for luci-app-tinyproxy - Tiếng Việt (Vietnamese
 
 @@
 
-Package: luci-i18n-tinyproxy-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-tinyproxy-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-tinyproxy
 Conflicts: 
@@ -14113,17 +14113,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-tinyproxy - he translation
+Title: luci-app-tinyproxy - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-tinyproxy - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-tinyproxy - Deutsch (German)
 
 @@
 
-Package: luci-i18n-tinyproxy-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-tinyproxy-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-tinyproxy
 Conflicts: 
@@ -14132,12 +14132,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-tinyproxy - ro translation
+Title: luci-app-tinyproxy - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-tinyproxy - Română (Romanian)
+Description:     Translation for luci-app-tinyproxy - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-tinyproxy-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-tinyproxy
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-tinyproxy - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-tinyproxy - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -14179,8 +14198,8 @@ Description:     Translation for luci-app-tinyproxy - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-tinyproxy-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-tinyproxy-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-tinyproxy
 Conflicts: 
@@ -14189,12 +14208,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-tinyproxy - de translation
+Title: luci-app-tinyproxy - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-tinyproxy - Deutsch (German)
+Description:     Translation for luci-app-tinyproxy - עִבְרִית (Hebrew)
 
 @@
 
@@ -14328,25 +14347,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-tinyproxy - Español (Spanish)
-
-@@
-
-Package: luci-i18n-tinyproxy-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-tinyproxy
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-tinyproxy - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-tinyproxy - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -14484,8 +14484,8 @@ Description:     Translation for luci-app-transmission - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-transmission-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-transmission-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-transmission
 Conflicts: 
@@ -14494,12 +14494,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-transmission - no translation
+Title: luci-app-transmission - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-transmission - Norsk (Norwegian)
+Description:     Translation for luci-app-transmission - Română (Romanian)
 
 @@
 
@@ -14598,8 +14598,8 @@ Description:     Translation for luci-app-transmission - Tiếng Việt (Vietnam
 
 @@
 
-Package: luci-i18n-transmission-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-transmission-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-transmission
 Conflicts: 
@@ -14608,17 +14608,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-transmission - he translation
+Title: luci-app-transmission - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-transmission - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-transmission - Deutsch (German)
 
 @@
 
-Package: luci-i18n-transmission-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-transmission-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-transmission
 Conflicts: 
@@ -14627,12 +14627,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-transmission - ro translation
+Title: luci-app-transmission - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-transmission - Română (Romanian)
+Description:     Translation for luci-app-transmission - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-transmission-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-transmission
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-transmission - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-transmission - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -14674,8 +14693,8 @@ Description:     Translation for luci-app-transmission - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-transmission-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-transmission-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-transmission
 Conflicts: 
@@ -14684,12 +14703,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-transmission - de translation
+Title: luci-app-transmission - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-transmission - Deutsch (German)
+Description:     Translation for luci-app-transmission - עִבְרִית (Hebrew)
 
 @@
 
@@ -14823,25 +14842,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-transmission - Español (Spanish)
-
-@@
-
-Package: luci-i18n-transmission-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-transmission
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-transmission - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-transmission - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -15020,8 +15020,8 @@ Description:     Translation for luci-app-upnp - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-upnp-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-upnp-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-upnp
 Conflicts: 
@@ -15030,12 +15030,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-upnp - no translation
+Title: luci-app-upnp - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-upnp - Norsk (Norwegian)
+Description:     Translation for luci-app-upnp - Română (Romanian)
 
 @@
 
@@ -15134,8 +15134,8 @@ Description:     Translation for luci-app-upnp - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-upnp-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-upnp-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-upnp
 Conflicts: 
@@ -15144,17 +15144,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-upnp - he translation
+Title: luci-app-upnp - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-upnp - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-upnp - Deutsch (German)
 
 @@
 
-Package: luci-i18n-upnp-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-upnp-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-upnp
 Conflicts: 
@@ -15163,12 +15163,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-upnp - ro translation
+Title: luci-app-upnp - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-upnp - Română (Romanian)
+Description:     Translation for luci-app-upnp - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-upnp-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-upnp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-upnp - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-upnp - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -15210,8 +15229,8 @@ Description:     Translation for luci-app-upnp - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-upnp-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-upnp-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-upnp
 Conflicts: 
@@ -15220,12 +15239,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-upnp - de translation
+Title: luci-app-upnp - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-upnp - Deutsch (German)
+Description:     Translation for luci-app-upnp - עִבְרִית (Hebrew)
 
 @@
 
@@ -15359,25 +15378,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-upnp - Español (Spanish)
-
-@@
-
-Package: luci-i18n-upnp-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-upnp
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-upnp - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-upnp - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -15515,8 +15515,8 @@ Description:     Translation for luci-app-ushare - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-ushare-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-ushare-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ushare
 Conflicts: 
@@ -15525,12 +15525,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ushare - no translation
+Title: luci-app-ushare - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ushare - Norsk (Norwegian)
+Description:     Translation for luci-app-ushare - Română (Romanian)
 
 @@
 
@@ -15629,8 +15629,8 @@ Description:     Translation for luci-app-ushare - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-ushare-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-ushare-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ushare
 Conflicts: 
@@ -15639,17 +15639,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ushare - he translation
+Title: luci-app-ushare - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ushare - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-ushare - Deutsch (German)
 
 @@
 
-Package: luci-i18n-ushare-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-ushare-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ushare
 Conflicts: 
@@ -15658,12 +15658,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ushare - ro translation
+Title: luci-app-ushare - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ushare - Română (Romanian)
+Description:     Translation for luci-app-ushare - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-ushare-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ushare
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-ushare - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-ushare - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -15705,8 +15724,8 @@ Description:     Translation for luci-app-ushare - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-ushare-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-ushare-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ushare
 Conflicts: 
@@ -15715,12 +15734,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ushare - de translation
+Title: luci-app-ushare - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ushare - Deutsch (German)
+Description:     Translation for luci-app-ushare - עִבְרִית (Hebrew)
 
 @@
 
@@ -15854,25 +15873,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-ushare - Español (Spanish)
-
-@@
-
-Package: luci-i18n-ushare-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ushare
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-ushare - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-ushare - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -16010,8 +16010,8 @@ Description:     Translation for luci-app-vnstat - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-vnstat-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-vnstat-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-vnstat
 Conflicts: 
@@ -16020,12 +16020,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-vnstat - no translation
+Title: luci-app-vnstat - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-vnstat - Norsk (Norwegian)
+Description:     Translation for luci-app-vnstat - Română (Romanian)
 
 @@
 
@@ -16124,8 +16124,8 @@ Description:     Translation for luci-app-vnstat - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-vnstat-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-vnstat-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-vnstat
 Conflicts: 
@@ -16134,17 +16134,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-vnstat - he translation
+Title: luci-app-vnstat - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-vnstat - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-vnstat - Deutsch (German)
 
 @@
 
-Package: luci-i18n-vnstat-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-vnstat-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-vnstat
 Conflicts: 
@@ -16153,12 +16153,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-vnstat - ro translation
+Title: luci-app-vnstat - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-vnstat - Română (Romanian)
+Description:     Translation for luci-app-vnstat - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-vnstat-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-vnstat
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-vnstat - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-vnstat - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -16200,8 +16219,8 @@ Description:     Translation for luci-app-vnstat - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-vnstat-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-vnstat-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-vnstat
 Conflicts: 
@@ -16210,12 +16229,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-vnstat - de translation
+Title: luci-app-vnstat - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-vnstat - Deutsch (German)
+Description:     Translation for luci-app-vnstat - עִבְרִית (Hebrew)
 
 @@
 
@@ -16349,25 +16368,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-vnstat - Español (Spanish)
-
-@@
-
-Package: luci-i18n-vnstat-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-vnstat
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-vnstat - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-vnstat - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -16505,8 +16505,8 @@ Description:     Translation for luci-app-voice-core - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-voice-core-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-voice-core-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-voice-core
 Conflicts: 
@@ -16515,12 +16515,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-voice-core - no translation
+Title: luci-app-voice-core - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-voice-core - Norsk (Norwegian)
+Description:     Translation for luci-app-voice-core - Română (Romanian)
 
 @@
 
@@ -16619,8 +16619,8 @@ Description:     Translation for luci-app-voice-core - Tiếng Việt (Vietnames
 
 @@
 
-Package: luci-i18n-voice-core-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-voice-core-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-voice-core
 Conflicts: 
@@ -16629,17 +16629,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-voice-core - he translation
+Title: luci-app-voice-core - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-voice-core - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-voice-core - Deutsch (German)
 
 @@
 
-Package: luci-i18n-voice-core-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-voice-core-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-voice-core
 Conflicts: 
@@ -16648,12 +16648,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-voice-core - ro translation
+Title: luci-app-voice-core - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-voice-core - Română (Romanian)
+Description:     Translation for luci-app-voice-core - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-voice-core-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-voice-core
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-voice-core - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-voice-core - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -16695,8 +16714,8 @@ Description:     Translation for luci-app-voice-core - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-voice-core-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-voice-core-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-voice-core
 Conflicts: 
@@ -16705,12 +16724,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-voice-core - de translation
+Title: luci-app-voice-core - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-voice-core - Deutsch (German)
+Description:     Translation for luci-app-voice-core - עִבְרִית (Hebrew)
 
 @@
 
@@ -16844,25 +16863,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-voice-core - Español (Spanish)
-
-@@
-
-Package: luci-i18n-voice-core-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-voice-core
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-voice-core - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-voice-core - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -17000,8 +17000,8 @@ Description:     Translation for luci-app-voice-diag - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-voice-diag-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-voice-diag-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-voice-diag
 Conflicts: 
@@ -17010,12 +17010,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-voice-diag - no translation
+Title: luci-app-voice-diag - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-voice-diag - Norsk (Norwegian)
+Description:     Translation for luci-app-voice-diag - Română (Romanian)
 
 @@
 
@@ -17114,8 +17114,8 @@ Description:     Translation for luci-app-voice-diag - Tiếng Việt (Vietnames
 
 @@
 
-Package: luci-i18n-voice-diag-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-voice-diag-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-voice-diag
 Conflicts: 
@@ -17124,17 +17124,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-voice-diag - he translation
+Title: luci-app-voice-diag - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-voice-diag - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-voice-diag - Deutsch (German)
 
 @@
 
-Package: luci-i18n-voice-diag-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-voice-diag-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-voice-diag
 Conflicts: 
@@ -17143,12 +17143,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-voice-diag - ro translation
+Title: luci-app-voice-diag - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-voice-diag - Română (Romanian)
+Description:     Translation for luci-app-voice-diag - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-voice-diag-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-voice-diag
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-voice-diag - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-voice-diag - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -17190,8 +17209,8 @@ Description:     Translation for luci-app-voice-diag - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-voice-diag-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-voice-diag-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-voice-diag
 Conflicts: 
@@ -17200,12 +17219,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-voice-diag - de translation
+Title: luci-app-voice-diag - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-voice-diag - Deutsch (German)
+Description:     Translation for luci-app-voice-diag - עִבְרִית (Hebrew)
 
 @@
 
@@ -17339,25 +17358,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-voice-diag - Español (Spanish)
-
-@@
-
-Package: luci-i18n-voice-diag-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-voice-diag
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-voice-diag - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-voice-diag - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -17495,8 +17495,8 @@ Description:     Translation for luci-app-watchcat - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-watchcat-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-watchcat-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-watchcat
 Conflicts: 
@@ -17505,12 +17505,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-watchcat - no translation
+Title: luci-app-watchcat - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-watchcat - Norsk (Norwegian)
+Description:     Translation for luci-app-watchcat - Română (Romanian)
 
 @@
 
@@ -17609,8 +17609,8 @@ Description:     Translation for luci-app-watchcat - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-watchcat-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-watchcat-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-watchcat
 Conflicts: 
@@ -17619,17 +17619,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-watchcat - he translation
+Title: luci-app-watchcat - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-watchcat - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-watchcat - Deutsch (German)
 
 @@
 
-Package: luci-i18n-watchcat-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-watchcat-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-watchcat
 Conflicts: 
@@ -17638,12 +17638,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-watchcat - ro translation
+Title: luci-app-watchcat - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-watchcat - Română (Romanian)
+Description:     Translation for luci-app-watchcat - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-watchcat-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-watchcat
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-watchcat - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-watchcat - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -17685,8 +17704,8 @@ Description:     Translation for luci-app-watchcat - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-watchcat-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-watchcat-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-watchcat
 Conflicts: 
@@ -17695,12 +17714,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-watchcat - de translation
+Title: luci-app-watchcat - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-watchcat - Deutsch (German)
+Description:     Translation for luci-app-watchcat - עִבְרִית (Hebrew)
 
 @@
 
@@ -17834,25 +17853,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-watchcat - Español (Spanish)
-
-@@
-
-Package: luci-i18n-watchcat-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-watchcat
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-watchcat - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-watchcat - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -17990,8 +17990,8 @@ Description:     Translation for luci-app-wol - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-wol-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-wol-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-wol
 Conflicts: 
@@ -18000,12 +18000,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-wol - no translation
+Title: luci-app-wol - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-wol - Norsk (Norwegian)
+Description:     Translation for luci-app-wol - Română (Romanian)
 
 @@
 
@@ -18104,8 +18104,8 @@ Description:     Translation for luci-app-wol - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-wol-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-wol-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-wol
 Conflicts: 
@@ -18114,17 +18114,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-wol - he translation
+Title: luci-app-wol - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-wol - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-wol - Deutsch (German)
 
 @@
 
-Package: luci-i18n-wol-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-wol-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-wol
 Conflicts: 
@@ -18133,12 +18133,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-wol - ro translation
+Title: luci-app-wol - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-wol - Română (Romanian)
+Description:     Translation for luci-app-wol - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-wol-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-wol
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-wol - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-wol - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -18180,8 +18199,8 @@ Description:     Translation for luci-app-wol - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-wol-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-wol-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-wol
 Conflicts: 
@@ -18190,12 +18209,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-wol - de translation
+Title: luci-app-wol - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-wol - Deutsch (German)
+Description:     Translation for luci-app-wol - עִבְרִית (Hebrew)
 
 @@
 
@@ -18329,25 +18348,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-wol - Español (Spanish)
-
-@@
-
-Package: luci-i18n-wol-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-wol
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-wol - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-wol - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -18485,8 +18485,8 @@ Description:     Translation for luci-app-wshaper - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-wshaper-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-wshaper-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-wshaper
 Conflicts: 
@@ -18495,12 +18495,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-wshaper - no translation
+Title: luci-app-wshaper - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-wshaper - Norsk (Norwegian)
+Description:     Translation for luci-app-wshaper - Română (Romanian)
 
 @@
 
@@ -18599,8 +18599,8 @@ Description:     Translation for luci-app-wshaper - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-wshaper-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-wshaper-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-wshaper
 Conflicts: 
@@ -18609,17 +18609,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-wshaper - he translation
+Title: luci-app-wshaper - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-wshaper - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-wshaper - Deutsch (German)
 
 @@
 
-Package: luci-i18n-wshaper-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-wshaper-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-wshaper
 Conflicts: 
@@ -18628,12 +18628,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-wshaper - ro translation
+Title: luci-app-wshaper - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-wshaper - Română (Romanian)
+Description:     Translation for luci-app-wshaper - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-wshaper-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-wshaper
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-wshaper - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-wshaper - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -18675,8 +18694,8 @@ Description:     Translation for luci-app-wshaper - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-wshaper-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-wshaper-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-wshaper
 Conflicts: 
@@ -18685,12 +18704,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-wshaper - de translation
+Title: luci-app-wshaper - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-wshaper - Deutsch (German)
+Description:     Translation for luci-app-wshaper - עִבְרִית (Hebrew)
 
 @@
 
@@ -18824,25 +18843,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-wshaper - Español (Spanish)
-
-@@
-
-Package: luci-i18n-wshaper-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-wshaper
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-wshaper - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-wshaper - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -19353,8 +19353,8 @@ Config:
      config LUCI_LANG_sk
 	   tristate "Slovak (sk)" 
 
-     config LUCI_LANG_no
-	   tristate "Norwegian (no)" 
+     config LUCI_LANG_ro
+	   tristate "Romanian (ro)" 
 
      config LUCI_LANG_en
 	   tristate "English (en)" 
@@ -19371,11 +19371,14 @@ Config:
      config LUCI_LANG_vi
 	   tristate "Vietnamese (vi)" 
 
-     config LUCI_LANG_he
-	   tristate "Hebrew (he)" 
+     config LUCI_LANG_de
+	   tristate "German (de)" 
 
-     config LUCI_LANG_ro
-	   tristate "Romanian (ro)" 
+     config LUCI_LANG_no
+	   tristate "Norwegian (no)" 
+
+     config LUCI_LANG_pt-br
+	   tristate "Brazialian Portuguese (pt-br)" 
 
      config LUCI_LANG_ms
 	   tristate "Malay (ms)" 
@@ -19383,8 +19386,8 @@ Config:
      config LUCI_LANG_zh-cn
 	   tristate "Chinese (zh-cn)" 
 
-     config LUCI_LANG_de
-	   tristate "German (de)" 
+     config LUCI_LANG_he
+	   tristate "Hebrew (he)" 
 
      config LUCI_LANG_zh-tw
 	   tristate "Taiwanese (zh-tw)" 
@@ -19406,9 +19409,6 @@ Config:
 
      config LUCI_LANG_es
 	   tristate "Spanish (es)" 
-
-     config LUCI_LANG_pt-br
-	   tristate "Brazialian Portuguese (pt-br)" 
 
      config LUCI_LANG_cs
 	   tristate "Czech (cs)" 
@@ -19482,8 +19482,8 @@ Description:     Translation for luci-base - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-base-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-base-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-base
 Conflicts: 
@@ -19493,12 +19493,12 @@ Build-Depends: lua/host luci-base/host
 Build-Types: host
 Section: luci
 Category: LuCI
-Title: luci-base - no translation
+Title: luci-base - ro translation
 Maintainer: 
 Source: LuaSrcDiet-0.12.1.tar.bz2
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-base - Norsk (Norwegian)
+Description:     Translation for luci-base - Română (Romanian)
 
 @@
 
@@ -19602,8 +19602,8 @@ Description:     Translation for luci-base - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-base-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-base-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-base
 Conflicts: 
@@ -19613,17 +19613,17 @@ Build-Depends: lua/host luci-base/host
 Build-Types: host
 Section: luci
 Category: LuCI
-Title: luci-base - he translation
+Title: luci-base - de translation
 Maintainer: 
 Source: LuaSrcDiet-0.12.1.tar.bz2
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-base - עִבְרִית (Hebrew)
+Description:     Translation for luci-base - Deutsch (German)
 
 @@
 
-Package: luci-i18n-base-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-base-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-base
 Conflicts: 
@@ -19633,12 +19633,32 @@ Build-Depends: lua/host luci-base/host
 Build-Types: host
 Section: luci
 Category: LuCI
-Title: luci-base - ro translation
+Title: luci-base - no translation
 Maintainer: 
 Source: LuaSrcDiet-0.12.1.tar.bz2
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-base - Română (Romanian)
+Description:     Translation for luci-base - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-base-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-base
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Build-Types: host
+Section: luci
+Category: LuCI
+Title: luci-base - pt-br translation
+Maintainer: 
+Source: LuaSrcDiet-0.12.1.tar.bz2
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-base - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -19682,8 +19702,8 @@ Description:     Translation for luci-base - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-base-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-base-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-base
 Conflicts: 
@@ -19693,12 +19713,12 @@ Build-Depends: lua/host luci-base/host
 Build-Types: host
 Section: luci
 Category: LuCI
-Title: luci-base - de translation
+Title: luci-base - he translation
 Maintainer: 
 Source: LuaSrcDiet-0.12.1.tar.bz2
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-base - Deutsch (German)
+Description:     Translation for luci-base - עִבְרִית (Hebrew)
 
 @@
 
@@ -19839,26 +19859,6 @@ Source: LuaSrcDiet-0.12.1.tar.bz2
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-base - Español (Spanish)
-
-@@
-
-Package: luci-i18n-base-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-base
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Build-Types: host
-Section: luci
-Category: LuCI
-Title: luci-base - pt-br translation
-Maintainer: 
-Source: LuaSrcDiet-0.12.1.tar.bz2
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-base - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -20059,8 +20059,8 @@ Description:     Translation for luci-mod-freifunk - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-freifunk-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-freifunk-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-mod-freifunk
 Conflicts: 
@@ -20069,12 +20069,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-mod-freifunk - no translation
+Title: luci-mod-freifunk - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-mod-freifunk - Norsk (Norwegian)
+Description:     Translation for luci-mod-freifunk - Română (Romanian)
 
 @@
 
@@ -20173,8 +20173,8 @@ Description:     Translation for luci-mod-freifunk - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-freifunk-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-freifunk-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-mod-freifunk
 Conflicts: 
@@ -20183,17 +20183,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-mod-freifunk - he translation
+Title: luci-mod-freifunk - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-mod-freifunk - עִבְרִית (Hebrew)
+Description:     Translation for luci-mod-freifunk - Deutsch (German)
 
 @@
 
-Package: luci-i18n-freifunk-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-freifunk-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-mod-freifunk
 Conflicts: 
@@ -20202,12 +20202,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-mod-freifunk - ro translation
+Title: luci-mod-freifunk - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-mod-freifunk - Română (Romanian)
+Description:     Translation for luci-mod-freifunk - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-freifunk-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-mod-freifunk
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-mod-freifunk - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-mod-freifunk - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -20249,8 +20268,8 @@ Description:     Translation for luci-mod-freifunk - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-freifunk-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-freifunk-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-mod-freifunk
 Conflicts: 
@@ -20259,12 +20278,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-mod-freifunk - de translation
+Title: luci-mod-freifunk - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-mod-freifunk - Deutsch (German)
+Description:     Translation for luci-mod-freifunk - עִבְרִית (Hebrew)
 
 @@
 
@@ -20398,25 +20417,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-mod-freifunk - Español (Spanish)
-
-@@
-
-Package: luci-i18n-freifunk-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-mod-freifunk
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-mod-freifunk - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-mod-freifunk - Português do Brasil (Brazialian Portuguese)
 
 @@
 

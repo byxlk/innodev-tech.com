@@ -2,10 +2,10 @@ Source-Makefile: feeds/targets/mpc83xx/Makefile
 Target: mpc83xx
 Target-Board: mpc83xx
 Target-Name: Freescale MPC83xx
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: powerpc
 Target-Arch-Packages: mpc83xx
-Target-Features: squashfs targz
+Target-Features: dt gpio pci squashfs targz
 Target-Depends: 
 Target-Optimization: -Os -pipe -mcpu=603e
 CPU-Type: 603e

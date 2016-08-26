@@ -2,10 +2,10 @@ Source-Makefile: feeds/targets/cobalt/Makefile
 Target: cobalt
 Target-Board: cobalt
 Target-Name: Cobalt Microservers
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: mipsel
 Target-Arch-Packages: cobalt
-Target-Features: display ext4 pci targz
+Target-Features: display ext4 pci rtc targz usb
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -march=r5000
 CPU-Type: 5k

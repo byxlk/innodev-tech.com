@@ -710,6 +710,226 @@ Joseph C. Lehner <joseph.c.lehner@gmail.com>
 @@
 
 
+Source-Makefile: feeds/packages/lang/chardet/Makefile
+Package: chardet
+Submenu: Python
+Version: 2.3.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: Universal encoding detector for Python 2 and 3
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: chardet-2.3.0.tar.gz
+License: LGPL-2.1
+Type: ipkg
+Description:   Universal encoding detector for Python 2 and 3
+https://github.com/chardet/chardet
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/django/Makefile
+Package: django
+Submenu: Python
+Version: 1.8.12-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: The web framework for perfectionists with deadlines.
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: django-1.8.12-c168aeba175dbb92c615460a360cb1ea978de5d3.tar.gz
+License: BSD-3-Clause
+Type: ipkg
+Description:     The web framework for perfectionists with deadlines.
+https://www.djangoproject.com/
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/django-appconf/Makefile
+Package: django-appconf
+Submenu: Python
+Version: 1.0.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +django
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: A helper class for handling configuration defaults of packaged apps gracefully.
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: django-appconf-1.0.1.tar.gz
+License: BSD-3-Clause
+Type: ipkg
+Description:   A helper class for handling configuration defaults of packaged apps gracefully.
+http://django-appconf.readthedocs.org/
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/django-compressor/Makefile
+Package: django-compressor
+Submenu: Python
+Version: 2.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +django
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: Compresses linked and inline JavaScript or CSS into single cached files.
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: django_compressor-2.0.tar.gz
+License: MIT
+Type: ipkg
+Description:   Compresses linked and inline JavaScript or CSS into single cached files.
+http://django-compressor.readthedocs.org/
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/django-constance/Makefile
+Package: django-constance
+Submenu: Python
+Version: 1.1.2-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +django
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: Django live settings with pluggable backends, including Redis.
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: django-constance-1.1.2.tar.gz
+License: BSD-3-Clause
+Type: ipkg
+Description:   Django live settings with pluggable backends, including Redis.
+https://github.com/jazzband/django-constance
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/django-jsonfield/Makefile
+Package: django-jsonfield
+Submenu: Python
+Version: 0.9.19-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +django
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: JSONField for django models
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: django-jsonfield-0.9.19.tar.gz
+License: BSD-3-Clause
+Type: ipkg
+Description:   JSONField for django models
+https://github.com/bradjasper/django-jsonfield
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/django-picklefield/Makefile
+Package: django-picklefield
+Submenu: Python
+Version: 0.3.2-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +django
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: Pickled object field for Django
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: django-picklefield-0.3.2.tar.gz
+License: MIT
+Type: ipkg
+Description:   Pickled object field for Django
+http://github.com/gintas/django-picklefield/
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/django-postoffice/Makefile
+Package: django-postoffice
+Submenu: Python
+Version: 2.0.7-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +django +django-jsonfield
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: A Django app to monitor and send mail asynchronously, complete with template support.
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: django-post_office-2.0.7.tar.gz
+License: MIT
+Type: ipkg
+Description:   A Django app to monitor and send mail asynchronously, complete with template support.
+https://github.com/ui/django-postoffice
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/django-restframework/Makefile
+Package: django-restframework
+Submenu: Python
+Version: 3.3.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +django
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: Web APIs for Django, made easy.
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: djangorestframework-3.3.3.tar.gz
+License: BSD-3-Clause
+Type: ipkg
+Description:   Web APIs for Django, made easy.
+http://www.django-rest-framework.org/
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/django-statici18n/Makefile
+Package: django-statici18n
+Submenu: Python
+Version: 1.1.5-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +django
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: A Django app that provides helper for generating JavaScript catalog to static files.
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: django-statici18n-1.1.5.tar.gz
+License: BSD-3-Clause
+Type: ipkg
+Description:   A Django app that provides helper for generating JavaScript catalog to static files.
+http://django-statici18n.readthedocs.org/
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
 Source-Makefile: feeds/packages/lang/dkjson/Makefile
 Package: dkjson
 Submenu: Lua
@@ -1061,6 +1281,72 @@ Nicolas Thill <nico@openwrt.org>
 @@
 
 
+Source-Makefile: feeds/packages/lang/et_xmlfile/Makefile
+Package: et_xmlfile
+Submenu: Python
+Version: 1.0.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: An implementation of lxml.xmlfile for the standard library
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: et_xmlfile-1.0.1.tar.gz
+License: MIT
+Type: ipkg
+Description:   An implementation of lxml.xmlfile for the standard library
+https://bitbucket.org/openpyxl/et_xmlfile
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/flup/Makefile
+Package: flup
+Submenu: Python
+Version: 1.0.2-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: Random assortment of WSGI servers
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: flup-1.0.2.tar.gz
+License: BSD-3-Clause
+Type: ipkg
+Description:   Random assortment of WSGI servers
+http://www.saddi.com/software/flup/
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/gunicorn/Makefile
+Package: gunicorn
+Submenu: Python
+Version: 19.4.5-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +python-setuptools
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: WSGI HTTP Server for UNIX
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: gunicorn-19.4.5.tar.gz
+License: MIT
+Type: ipkg
+Description:     WSGI HTTP Server for UNIX
+http://gunicorn.org/
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
 Source-Makefile: feeds/packages/lang/jamvm/Makefile
 Package: jamvm
 Submenu: Java
@@ -1084,6 +1370,28 @@ Description:  JamVM is a new Java Virtual Machine which conforms to the JVM
  Native Interface (JNI) and the Reflection API.
 http://sourceforge.net/projects/jamvm
 Dana H. Myers <k6jq@comcast.net>
+@@
+
+
+Source-Makefile: feeds/packages/lang/jdcal/Makefile
+Package: jdcal
+Submenu: Python
+Version: 1.2-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: Julian dates from proleptic Gregorian and Julian calendars.
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: jdcal-1.2.tar.gz
+License: BSD-3-Clause
+Type: ipkg
+Description:   Julian dates from proleptic Gregorian and Julian calendars.
+http://github.com/phn/jdcal
+Gergely Kiss <mail.gery@gmail.com>
 @@
 
 
@@ -1542,7 +1850,7 @@ W. Michael Petullo <mike@flyn.org>
 Source-Makefile: feeds/packages/lang/luai2c/Makefile
 Package: luai2c
 Submenu: Lua
-Version: 1.0.0-2
+Version: 1.0.0-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +liblua +kmod-i2c-core
 Conflicts: 
 Menu-Depends: 
@@ -1550,12 +1858,13 @@ Provides:
 Section: lang
 Category: Languages
 Title: Lua I2C binding
-Maintainer: Frank Edelhaeuser <fedel@users.sourceforge.net>
-Source: i2c-lua-1.0.0.tar.gz
+Maintainer: Frank Edelhaeuser <mrpace2@gmail.com>
+Source: luai2c-1.0.0.tar.xz
+License: MIT
 Type: ipkg
 Description: 	This is the Lua binding for I2C. It provides access to I2C slaves supported by the kernel.
-http://sourceforge.net/projects/i2c-lua/
-Frank Edelhaeuser <fedel@users.sourceforge.net>
+https://github.com/mrpace2/i2c-lua/
+Frank Edelhaeuser <mrpace2@gmail.com>
 @@
 
 
@@ -2000,6 +2309,28 @@ Type: ipkg
 Description:  Node.js package to access serial ports for reading and writing OR Welcome your robotic JavaScript overlords. Better yet, program them!
 https://www.npmjs.org/package/serialport
 John Crispin <blogic@openwrt.org>
+@@
+
+
+Source-Makefile: feeds/packages/lang/openpyxl/Makefile
+Package: openpyxl
+Submenu: Python
+Version: 2.4.0-a1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +django
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: A Python library to read/write Excel 2010 xlsx/xlsm files
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: openpyxl-2.4.0-a1.tar.gz
+License: MIT
+Type: ipkg
+Description:   A Python library to read/write Excel 2010 xlsx/xlsm files
+https://openpyxl.readthedocs.org/
+Gergely Kiss <mail.gery@gmail.com>
 @@
 
 
@@ -6450,7 +6781,7 @@ Michael Heimpold <mhei@heimpold.de>
 Source-Makefile: feeds/packages/lang/pillow/Makefile
 Package: pillow
 Submenu: Python
-Version: 3.2.0-1
+Version: 3.3.1-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +libfreetype +libjpeg +zlib +libtiff
 Conflicts: 
 Menu-Depends: 
@@ -6460,12 +6791,12 @@ Section: lang
 Category: Languages
 Title: The friendly PIL fork
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: pillow-3.2.0-344cb709ed0111adcc6ad47cc007507c3f5efeb3.tar.gz
+Source: pillow-3.3.1-aab33141f381d5577cdef9033b7fdff79122a10c.tar.gz
 License: CUSTOM
 LicenseFiles: LICENSE
 Type: ipkg
 Description:     The friendly PIL fork
-https://www.pillowproject.com/
+https://python-pillow.org/
 Gergely Kiss <mail.gery@gmail.com>
 @@
 
@@ -6632,29 +6963,6 @@ https://www.python.org/
 Alexandru Ardelean <ardeleanalex@gmail.com>
 @@
 
-Package: python-xml
-Submenu: Python
-Version: 2.7.11-9
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-light +libexpat
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: python/host
-Build-Depends/host: bzip2/host expat/host libffi/host
-Build-Types: host
-Section: lang
-Category: Languages
-Title: Python 2.7 xml libs
-Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-2.7.11.tar.xz
-License: PSF
-LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
-Type: ipkg
-Description: Python 2.7 xml libs
-https://www.python.org/
-Alexandru Ardelean <ardeleanalex@gmail.com>
-@@
-
 Package: python-gdbm
 Submenu: Python
 Version: 2.7.11-9
@@ -6743,6 +7051,29 @@ License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
 Description: Python 2.7 SSL module
+https://www.python.org/
+Alexandru Ardelean <ardeleanalex@gmail.com>
+@@
+
+Package: python-xml
+Submenu: Python
+Version: 2.7.11-9
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-light +libexpat
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python/host
+Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Types: host
+Section: lang
+Category: Languages
+Title: Python 2.7 xml libs
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Source: Python-2.7.11.tar.xz
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Type: ipkg
+Description: Python 2.7 xml libs
 https://www.python.org/
 Alexandru Ardelean <ardeleanalex@gmail.com>
 @@
@@ -6937,7 +7268,7 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 Package: python
 Submenu: Python
 Version: 2.7.11-9
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-light +python-ctypes +python-pydoc +python-multiprocessing +python-logging +python-codecs +python-sqlite3 +python-xml +python-gdbm +python-email +python-distutils +python-openssl +python-compiler +python-db +python-decimal +python-unittest +python-ncurses
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-light +python-ctypes +python-pydoc +python-multiprocessing +python-logging +python-codecs +python-sqlite3 +python-gdbm +python-email +python-distutils +python-openssl +python-xml +python-compiler +python-db +python-decimal +python-unittest +python-ncurses
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -7076,6 +7407,28 @@ primitives to Python developers.  Our goal is for it to be your "cryptographic
 standard library". It supports Python 2.6-2.7, Python 3.3+, and PyPy 2.6+.
 https://github.com/pyca/cryptography
 Jeffery To <jeffery.to@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/python-dateutil/Makefile
+Package: python-dateutil
+Submenu: Python
+Version: 2.5.2-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +python-six
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: Extensions to the standard Python datetime module
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: python-dateutil-2.5.2.tar.gz
+License: BSD-2-Clause
+Type: ipkg
+Description:   Extensions to the standard Python datetime module
+https://dateutil.readthedocs.org/
+Gergely Kiss <mail.gery@gmail.com>
 @@
 
 
@@ -7909,29 +8262,6 @@ https://www.python.org/
 Alexandru Ardelean <ardeleanalex@gmail.com>
 @@
 
-Package: python3-sqlite3
-Submenu: Python
-Version: 3.5.1-4
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light +libsqlite3
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: libbz2/host expat/host python3/host
-Build-Depends/host: bzip2/host expat/host libffi/host
-Build-Types: host
-Section: lang
-Category: Languages
-Title: Python 3.5 sqlite3 module
-Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.5.1.tar.xz
-License: PSF
-LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
-Type: ipkg
-Description: Python 3.5 sqlite3 module
-https://www.python.org/
-Alexandru Ardelean <ardeleanalex@gmail.com>
-@@
-
 Package: python3-xml
 Submenu: Python
 Version: 3.5.1-4
@@ -7955,10 +8285,10 @@ https://www.python.org/
 Alexandru Ardelean <ardeleanalex@gmail.com>
 @@
 
-Package: python3-distutils
+Package: python3-sqlite3
 Submenu: Python
 Version: 3.5.1-4
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light +libsqlite3
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -7967,13 +8297,13 @@ Build-Depends/host: bzip2/host expat/host libffi/host
 Build-Types: host
 Section: lang
 Category: Languages
-Title: Python 3.5 distutils module
+Title: Python 3.5 sqlite3 module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Source: Python-3.5.1.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
-Description: Python 3.5 distutils module
+Description: Python 3.5 sqlite3 module
 https://www.python.org/
 Alexandru Ardelean <ardeleanalex@gmail.com>
 @@
@@ -7997,6 +8327,29 @@ License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
 Description: Python 3.5 email module
+https://www.python.org/
+Alexandru Ardelean <ardeleanalex@gmail.com>
+@@
+
+Package: python3-distutils
+Submenu: Python
+Version: 3.5.1-4
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libbz2/host expat/host python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Types: host
+Section: lang
+Category: Languages
+Title: Python 3.5 distutils module
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Source: Python-3.5.1.tar.xz
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Type: ipkg
+Description: Python 3.5 distutils module
 https://www.python.org/
 Alexandru Ardelean <ardeleanalex@gmail.com>
 @@
@@ -8145,7 +8498,7 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 Package: python3
 Submenu: Python
 Version: 3.5.1-4
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light +python3-unittest +python3-ncurses +python3-ctypes +python3-pydoc +python3-logging +python3-decimal +python3-multiprocessing +python3-codecs +python3-gdbm +python3-sqlite3 +python3-xml +python3-distutils +python3-email +python3-openssl +python3-dbm +python3-lzma +python3-asyncio
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light +python3-unittest +python3-ncurses +python3-ctypes +python3-pydoc +python3-logging +python3-decimal +python3-multiprocessing +python3-codecs +python3-gdbm +python3-xml +python3-sqlite3 +python3-email +python3-distutils +python3-openssl +python3-dbm +python3-lzma +python3-asyncio
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -8229,6 +8582,50 @@ Type: ipkg
 Description: 	Easily download, build, install, upgrade, and uninstall Python  packages
 https://bitbucket.org/pypa/setuptools
 Alexandru Ardelean <ardeleanalex@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/pytz/Makefile
+Package: pytz
+Submenu: Python
+Version: 2016.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: World timezone definitions, modern and historical
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: pytz-2016.3.tar.gz
+License: MIT
+Type: ipkg
+Description:   World timezone definitions, modern and historical
+https://sourceforge.net/projects/pytz/
+Gergely Kiss <mail.gery@gmail.com>
+@@
+
+
+Source-Makefile: feeds/packages/lang/rcssmin/Makefile
+Package: rcssmin
+Submenu: Python
+Version: 1.0.6-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python python-setuptools
+Section: lang
+Category: Languages
+Title: Fast CSS minifier for Python
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Source: rcssmin-1.0.6-4764e3bc47ca8d44be3198892e73c51d8a0a9970.tar.gz
+License: Apache-2.0
+Type: ipkg
+Description:     Fast CSS minifier for Python
+http://opensource.perlig.de/rcssmin/
+Gergely Kiss <mail.gery@gmail.com>
 @@
 
 
@@ -9923,7 +10320,7 @@ Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Source-Makefile: feeds/packages/lang/simplejson/Makefile
 Package: simplejson
 Submenu: Python
-Version: 3.6.5-1
+Version: 3.8.2-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python
 Conflicts: 
 Menu-Depends: 
@@ -9933,7 +10330,7 @@ Section: lang
 Category: Languages
 Title: Simple, fast, extensible JSON encoder/decoder for Python
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: simplejson-3.6.5.tar.gz
+Source: simplejson-3.8.2.tar.gz
 License: MIT
 Type: ipkg
 Description:   Simple, fast, extensible JSON encoder/decoder for Python
@@ -13113,7 +13510,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Source-Makefile: feeds/packages/libs/libevhtp/Makefile
 Package: libevhtp
-Version: 1.2.10-1
+Version: 1.1.6-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libevent2 +libevent2-openssl +libevent2-pthreads +libopenssl +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -13122,34 +13519,12 @@ Section: libs
 Category: Libraries
 Title: A more flexible replacement for libevent's httpd API
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: 1.2.10.tar.gz
+Source: libevhtp-1.1.6-91071e2f20749cd469b87ac2ef1c158dc2a6806f.tar.gz
 License: BSD-3-Clause
 Type: ipkg
 Description:    Libevhtp was created as a replacement API for Libevent's current HTTP API.
    The reality of libevent's http interface is that it was created as a JIT server,
    meaning the developer never thought of it being used for creating a full-fledged HTTP service.
-https://github.com/ellzey/libevhtp
-Gergely Kiss <mail.gery@gmail.com>
-@@
-
-
-Source-Makefile: feeds/packages/libs/libevhtp-1.1/Makefile
-Package: libevhtp-1.1
-Version: 1.1.7-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libevent2 +libevent2-pthreads +libpthread
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: libs
-Category: Libraries
-Title: A more flexible replacement for libevent's httpd API - compatibility package
-Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: libevhtp-1.1-1.1.7-f70c920d4d8d4146ff662867f47c4b5854045b3c.tar.gz
-License: BSD-3-Clause
-Type: ipkg
-Description:    Libevhtp was created as a replacement API for Libevent's current HTTP API.
-
-   NOTE: This is an older version required for compatibility reasons. The latest version has its own package named "libevhtp".
 https://github.com/ellzey/libevhtp
 Gergely Kiss <mail.gery@gmail.com>
 @@
@@ -14821,18 +15196,17 @@ Ted Hess <thess@kitschensync.net>
 
 Source-Makefile: feeds/packages/libs/libsearpc/Makefile
 Package: libsearpc
-Version: 3.1.7-8998e7b2c5587f0b94c48db24e2952d08def5add
+Version: 5.1.1-8998e7b2c5587f0b94c48db24e2952d08def5add-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +glib2 +jansson +python +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
 Provides: 
 Build-Depends: !BUILD_NLS:libiconv !BUILD_NLS:libintl
-Build-Types: host
 Section: libs
 Category: Libraries
 Title: Seafile RPC Library
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: libsearpc-3.1.7-8998e7b2c5587f0b94c48db24e2952d08def5add.tar.gz
+Source: libsearpc-5.1.1-8998e7b2c5587f0b94c48db24e2952d08def5add.tar.gz
 License: GPL-3.0
 Type: ipkg
 Description:     Searpc is a simple C language RPC framework based on GObject system.
@@ -17743,7 +18117,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Source-Makefile: feeds/packages/libs/libzdb/Makefile
 Package: libzdb
-Version: 3.0-1
+Version: 3.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsqlite3 +libpq +libmysqlclient +zlib +libpthread +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -17754,7 +18128,7 @@ Section: libs
 Category: Libraries
 Title: A thread-safe multi database connection pool library
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: libzdb-3.0.tar.gz
+Source: libzdb-3.1.tar.gz
 License: GPL-3.0
 Type: ipkg
 Description:    zdb is a database library with thread-safe connection pooling. The library can connect
@@ -24386,7 +24760,7 @@ Source-Makefile: feeds/packages/net/coova-chilli/Makefile
 Package: coova-chilli
 Menu: 1
 Submenu: Captive Portals
-Version: 1.3.0+20141128-3
+Version: 1.3.0+20141128-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-tun +librt +COOVACHILLI_MATRIXSSL:libmatrixssl +COOVACHILLI_CYASSL:libcyassl +COOVACHILLI_OPENSSL:libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -24415,7 +24789,7 @@ Config:
 
 Package: kmod-ipt-coova
 Submenu: Netfilter Extensions
-Version: <LINUX_VERSION>+1.3.0+20141128-3
+Version: <LINUX_VERSION>+1.3.0+20141128-4
 Depends: coova-chilli +kmod-ipt-core +libxtables
 Conflicts: 
 Menu-Depends: 
@@ -32498,17 +32872,17 @@ W. Michael Petullo <mike@flyn.org>
 
 Source-Makefile: feeds/packages/net/seafile-ccnet/Makefile
 Package: seafile-ccnet
-Version: 4.1.2-a73109f09af4ecc49cdc4c57cdde51b38e15c31a-2
+Version: 5.1.1-6d94fdc4296d542a5552039dc13a67c3448e8b13-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsearpc +libevent2 +libopenssl +glib2 +python +libzdb +libuuid +libpthread +libsqlite3 +jansson +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: vala/host libsearpc/host
+Build-Depends: vala/host
 Section: net
 Category: Network
 Title: Seafile server - ccnet component
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: seafile-ccnet-4.1.2-a73109f09af4ecc49cdc4c57cdde51b38e15c31a.tar.gz
+Source: seafile-ccnet-5.1.1-6d94fdc4296d542a5552039dc13a67c3448e8b13.tar.gz
 License: GPL-3.0
 Type: ipkg
 Description:    Ccnet is a framework for writing networked applications in C.
@@ -32519,23 +32893,22 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Source-Makefile: feeds/packages/net/seafile-seahub/Makefile
 Package: seafile-seahub
-Version: 4.1.2-3fb1288f920de03a4e2e6a06b60671ce98971742
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +simplejson +pillow +python-setuptools
+Version: 5.1.1-95f762f396c81f840fe658ab983df53784083bb1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +simplejson +python +pillow +chardet +django +django-appconf +django-compressor +django-constance +django-jsonfield +django-picklefield +django-postoffice +django-restframework +django-statici18n +et_xmlfile +flup +gunicorn +jdcal +openpyxl +python-dateutil +python-mysql +pytz +rcssmin
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python-setuptools
 Section: net
 Category: Network
 Title: Seafile server - seahub component
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: seafile-seahub-4.1.2-3fb1288f920de03a4e2e6a06b60671ce98971742.tar.gz
+Source: seafile-seahub-5.1.1-95f762f396c81f840fe658ab983df53784083bb1.tar.gz
 License: Apache-2.0
 Type: ipkg
 Description:    The web end of seafile server.
 
-   NOTE: in order to have better performance, language support is turned off by default.
-   Please set 'USE_I18N = True' in seahub_settings.py to support multiple languages.
+   NOTE: in order to have better performance, localization support is turned off by default.
+   Please set 'USE_I18N = True' in seahub_settings.py if you intend to use languages other than English.
 http://seafile.com/
 Gergely Kiss <mail.gery@gmail.com>
 @@
@@ -32543,22 +32916,26 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Source-Makefile: feeds/packages/net/seafile-server/Makefile
 Package: seafile-server
-Version: 4.1.2-c0166019c712e2e1d5e532fd5f7401b1b72db6d8-5
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libarchive +libopenssl +glib2 +libsearpc +seafile-ccnet +seafile-seahub +sqlite3-cli +python-mysql +jansson +libevent2 +libevent2-openssl +zlib +libzdb +libsqlite3 +libmysqlclient +libpthread +libuuid +bash +sudo +procps-ng +procps-ng-pkill +BUILD_NLS:libiconv-full
+Menu: 1
+Version: 5.1.1-5a8677a3acdde748caa387adfc054da64f2a24ea-7
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libarchive +libopenssl +glib2 +libsearpc +seafile-ccnet +seafile-seahub +sqlite3-cli +python-mysql +jansson +libevent2 +libevent2-openssl +zlib +libzdb +libsqlite3 +libmysqlclient +libpthread +libuuid +bash +procps-ng +procps-ng-pkill +SEAFILE_FUSE_SUPPORT:libfuse +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: vala/host libsearpc/host libevhtp-1.1
+Build-Depends: vala/host libevhtp
 Section: net
 Category: Network
 Title: Seafile server
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: seafile-server-4.1.2-c0166019c712e2e1d5e532fd5f7401b1b72db6d8.tar.gz
+Source: seafile-server-5.1.1-5a8677a3acdde748caa387adfc054da64f2a24ea.tar.gz
 License: GPL-3.0
 Type: ipkg
 Description:    Open source cloud storage with advanced features on privacy protection and teamwork.
 http://seafile.com/
 Gergely Kiss <mail.gery@gmail.com>
+@@
+Config:
+	source "feeds/packages/net/seafile-server/Config.in"
 @@
 
 

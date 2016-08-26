@@ -29,9 +29,9 @@
 void gpio_spi_write(unsigned char reg, unsigned char val);
 unsigned char gpio_spi_read(unsigned char reg);
 
-inline int set_gpio_direction(const char *gpio_port, const char *gpio_dir);
-inline int set_gpio_value(const char *gpio_port, const char *gpio_val);
-inline int get_gpio_value(const char *gpio_port);
+int set_gpio_direction(const char *gpio_port, const char *gpio_dir);
+int set_gpio_value(const char *gpio_port, const char *gpio_val);
+int get_gpio_value(const char *gpio_port);
 
 
 

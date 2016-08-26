@@ -2,7 +2,7 @@ Source-Makefile: feeds/luci/applications/luci-app-pbx-voicemail/Makefile
 Package: luci-app-pbx-voicemail
 Submenu: 3. Applications
 Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +luci-app-pbx +asterisk18 +msmtp +coreutils-base64
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +luci-app-pbx +asterisk18 +msmtp +coreutils-base64 @BROKEN
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -74,8 +74,8 @@ Description:     Translation for luci-app-pbx-voicemail - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-pbx-voicemail-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-pbx-voicemail-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx-voicemail
 Conflicts: 
@@ -84,12 +84,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-pbx-voicemail - no translation
+Title: luci-app-pbx-voicemail - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-pbx-voicemail - Norsk (Norwegian)
+Description:     Translation for luci-app-pbx-voicemail - Română (Romanian)
 
 @@
 
@@ -188,8 +188,8 @@ Description:     Translation for luci-app-pbx-voicemail - Tiếng Việt (Vietna
 
 @@
 
-Package: luci-i18n-pbx-voicemail-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-pbx-voicemail-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx-voicemail
 Conflicts: 
@@ -198,17 +198,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-pbx-voicemail - he translation
+Title: luci-app-pbx-voicemail - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-pbx-voicemail - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-pbx-voicemail - Deutsch (German)
 
 @@
 
-Package: luci-i18n-pbx-voicemail-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-pbx-voicemail-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx-voicemail
 Conflicts: 
@@ -217,12 +217,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-pbx-voicemail - ro translation
+Title: luci-app-pbx-voicemail - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-pbx-voicemail - Română (Romanian)
+Description:     Translation for luci-app-pbx-voicemail - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-pbx-voicemail-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx-voicemail
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-pbx-voicemail - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-pbx-voicemail - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -264,8 +283,8 @@ Description:     Translation for luci-app-pbx-voicemail - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-pbx-voicemail-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-pbx-voicemail-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx-voicemail
 Conflicts: 
@@ -274,12 +293,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-pbx-voicemail - de translation
+Title: luci-app-pbx-voicemail - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-pbx-voicemail - Deutsch (German)
+Description:     Translation for luci-app-pbx-voicemail - עִבְרִית (Hebrew)
 
 @@
 
@@ -413,25 +432,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-pbx-voicemail - Español (Spanish)
-
-@@
-
-Package: luci-i18n-pbx-voicemail-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-pbx-voicemail
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-pbx-voicemail - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-pbx-voicemail - Português do Brasil (Brazialian Portuguese)
 
 @@
 

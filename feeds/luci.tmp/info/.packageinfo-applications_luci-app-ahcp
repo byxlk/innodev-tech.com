@@ -74,8 +74,8 @@ Description:     Translation for luci-app-ahcp - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-ahcp-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-ahcp-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ahcp
 Conflicts: 
@@ -84,12 +84,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ahcp - no translation
+Title: luci-app-ahcp - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ahcp - Norsk (Norwegian)
+Description:     Translation for luci-app-ahcp - Română (Romanian)
 
 @@
 
@@ -188,8 +188,8 @@ Description:     Translation for luci-app-ahcp - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-ahcp-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-ahcp-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ahcp
 Conflicts: 
@@ -198,17 +198,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ahcp - he translation
+Title: luci-app-ahcp - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ahcp - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-ahcp - Deutsch (German)
 
 @@
 
-Package: luci-i18n-ahcp-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-ahcp-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ahcp
 Conflicts: 
@@ -217,12 +217,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ahcp - ro translation
+Title: luci-app-ahcp - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ahcp - Română (Romanian)
+Description:     Translation for luci-app-ahcp - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-ahcp-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ahcp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-ahcp - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-ahcp - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -264,8 +283,8 @@ Description:     Translation for luci-app-ahcp - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-ahcp-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-ahcp-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ahcp
 Conflicts: 
@@ -274,12 +293,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-ahcp - de translation
+Title: luci-app-ahcp - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-ahcp - Deutsch (German)
+Description:     Translation for luci-app-ahcp - עִבְרִית (Hebrew)
 
 @@
 
@@ -413,25 +432,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-ahcp - Español (Spanish)
-
-@@
-
-Package: luci-i18n-ahcp-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ahcp
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-ahcp - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-ahcp - Português do Brasil (Brazialian Portuguese)
 
 @@
 

@@ -74,8 +74,8 @@ Description:     Translation for luci-mod-freifunk - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-freifunk-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-freifunk-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-mod-freifunk
 Conflicts: 
@@ -84,12 +84,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-mod-freifunk - no translation
+Title: luci-mod-freifunk - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-mod-freifunk - Norsk (Norwegian)
+Description:     Translation for luci-mod-freifunk - Română (Romanian)
 
 @@
 
@@ -188,8 +188,8 @@ Description:     Translation for luci-mod-freifunk - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-freifunk-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-freifunk-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-mod-freifunk
 Conflicts: 
@@ -198,17 +198,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-mod-freifunk - he translation
+Title: luci-mod-freifunk - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-mod-freifunk - עִבְרִית (Hebrew)
+Description:     Translation for luci-mod-freifunk - Deutsch (German)
 
 @@
 
-Package: luci-i18n-freifunk-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-freifunk-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-mod-freifunk
 Conflicts: 
@@ -217,12 +217,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-mod-freifunk - ro translation
+Title: luci-mod-freifunk - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-mod-freifunk - Română (Romanian)
+Description:     Translation for luci-mod-freifunk - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-freifunk-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-mod-freifunk
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-mod-freifunk - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-mod-freifunk - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -264,8 +283,8 @@ Description:     Translation for luci-mod-freifunk - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-freifunk-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-freifunk-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-mod-freifunk
 Conflicts: 
@@ -274,12 +293,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-mod-freifunk - de translation
+Title: luci-mod-freifunk - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-mod-freifunk - Deutsch (German)
+Description:     Translation for luci-mod-freifunk - עִבְרִית (Hebrew)
 
 @@
 
@@ -413,25 +432,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-mod-freifunk - Español (Spanish)
-
-@@
-
-Package: luci-i18n-freifunk-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-mod-freifunk
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-mod-freifunk - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-mod-freifunk - Português do Brasil (Brazialian Portuguese)
 
 @@
 

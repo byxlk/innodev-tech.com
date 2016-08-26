@@ -2,7 +2,7 @@ Source-Makefile: feeds/packages/net/coova-chilli/Makefile
 Package: coova-chilli
 Menu: 1
 Submenu: Captive Portals
-Version: 1.3.0+20141128-3
+Version: 1.3.0+20141128-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-tun +librt +COOVACHILLI_MATRIXSSL:libmatrixssl +COOVACHILLI_CYASSL:libcyassl +COOVACHILLI_OPENSSL:libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -31,7 +31,7 @@ Config:
 
 Package: kmod-ipt-coova
 Submenu: Netfilter Extensions
-Version: <LINUX_VERSION>+1.3.0+20141128-3
+Version: <LINUX_VERSION>+1.3.0+20141128-4
 Depends: coova-chilli +kmod-ipt-core +libxtables
 Conflicts: 
 Menu-Depends: 

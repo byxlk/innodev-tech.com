@@ -12,7 +12,7 @@
 #include "common.h"
 
 
-inline int set_gpio_direction(const char *gpio_port, const char *gpio_dir)
+int set_gpio_direction(const char *gpio_port, const char *gpio_dir)
 {
         int gpio_fd = -1;
 
@@ -34,7 +34,7 @@ inline int set_gpio_direction(const char *gpio_port, const char *gpio_dir)
         return 0;
 }
 
-inline int set_gpio_value(const char *gpio_port, const char *gpio_val)
+int set_gpio_value(const char *gpio_port, const char *gpio_val)
 {
         int gpio_fd = -1;
 
@@ -56,7 +56,7 @@ inline int set_gpio_value(const char *gpio_port, const char *gpio_val)
     return 0;
 }
 
-inline int get_gpio_value(const char *gpio_port)
+int get_gpio_value(const char *gpio_port)
 {
         int gpio_fd = -1;
         int read_size = 0;

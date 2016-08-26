@@ -74,8 +74,8 @@ Description:     Translation for luci-app-qos - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-qos-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-qos-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-qos
 Conflicts: 
@@ -84,12 +84,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-qos - no translation
+Title: luci-app-qos - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-qos - Norsk (Norwegian)
+Description:     Translation for luci-app-qos - Română (Romanian)
 
 @@
 
@@ -188,8 +188,8 @@ Description:     Translation for luci-app-qos - Tiếng Việt (Vietnamese)
 
 @@
 
-Package: luci-i18n-qos-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-qos-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-qos
 Conflicts: 
@@ -198,17 +198,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-qos - he translation
+Title: luci-app-qos - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-qos - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-qos - Deutsch (German)
 
 @@
 
-Package: luci-i18n-qos-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-qos-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-qos
 Conflicts: 
@@ -217,12 +217,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-qos - ro translation
+Title: luci-app-qos - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-qos - Română (Romanian)
+Description:     Translation for luci-app-qos - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-qos-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-qos
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-qos - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-qos - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -264,8 +283,8 @@ Description:     Translation for luci-app-qos - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-qos-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-qos-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-qos
 Conflicts: 
@@ -274,12 +293,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-qos - de translation
+Title: luci-app-qos - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-qos - Deutsch (German)
+Description:     Translation for luci-app-qos - עִבְרִית (Hebrew)
 
 @@
 
@@ -413,25 +432,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-qos - Español (Spanish)
-
-@@
-
-Package: luci-i18n-qos-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-qos
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-qos - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-qos - Português do Brasil (Brazialian Portuguese)
 
 @@
 

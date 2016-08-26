@@ -2,10 +2,10 @@ Source-Makefile: feeds/targets/cns21xx/Makefile
 Target: cns21xx
 Target-Board: cns21xx
 Target-Name: Cavium Networks Econa CNS21xx
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: arm
 Target-Arch-Packages: cns21xx
-Target-Features: broken squashfs
+Target-Features: broken gpio squashfs
 Target-Depends: 
 Target-Optimization: -Os -pipe -march=armv4 -mtune=fa526
 CPU-Type: fa526

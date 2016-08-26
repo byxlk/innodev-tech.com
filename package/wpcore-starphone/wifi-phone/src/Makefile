@@ -26,5 +26,5 @@ $(TARGET) : $(OBJS)
 	 chmod a+x $(TARGET)
 
 clean:
-	rm *.o wifi-phone
+	rm *.o starphone
 

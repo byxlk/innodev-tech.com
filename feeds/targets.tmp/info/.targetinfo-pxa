@@ -2,10 +2,10 @@ Source-Makefile: feeds/targets/pxa/Makefile
 Target: pxa
 Target-Board: pxa
 Target-Name: Marvell/Intel PXA2xx
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: arm
 Target-Arch-Packages: pxa
-Target-Features: broken squashfs
+Target-Features: broken gpio squashfs
 Target-Depends: 
 Target-Optimization: -Os -pipe -march=armv5te -mtune=xscale
 CPU-Type: xscale

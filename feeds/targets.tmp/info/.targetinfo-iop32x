@@ -2,10 +2,10 @@ Source-Makefile: feeds/targets/iop32x/Makefile
 Target: iop32x
 Target-Board: iop32x
 Target-Name: Intel IOP32x
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: arm
 Target-Arch-Packages: iop32x
-Target-Features: broken squashfs
+Target-Features: broken gpio pci rtc squashfs
 Target-Depends: 
 Target-Optimization: -Os -pipe -march=armv5te -mtune=xscale
 CPU-Type: xscale

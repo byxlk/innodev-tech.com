@@ -2,10 +2,10 @@ Source-Makefile: feeds/targets/sibyte/Makefile
 Target: sibyte
 Target-Board: sibyte
 Target-Name: Broadcom/SiByte SB-1
-Target-Path: /pwdata/innodev-tech.com
+Target-Path: /home/lsl/work/innodev-tech.com
 Target-Arch: mips
 Target-Arch-Packages: sibyte
-Target-Features: broken fpu ramdisk
+Target-Features: broken fpu pci ramdisk rtc
 Target-Depends: 
 Target-Optimization: -Os -pipe -mno-branch-likely -march=sb1
 CPU-Type: sb1

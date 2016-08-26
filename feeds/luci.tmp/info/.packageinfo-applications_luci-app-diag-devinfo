@@ -74,8 +74,8 @@ Description:     Translation for luci-app-diag-devinfo - Slovenčina (Slovak)
 
 @@
 
-Package: luci-i18n-diag-devinfo-no
-Default: LUCI_LANG_no||(ALL&&m)
+Package: luci-i18n-diag-devinfo-ro
+Default: LUCI_LANG_ro||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-devinfo
 Conflicts: 
@@ -84,12 +84,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-diag-devinfo - no translation
+Title: luci-app-diag-devinfo - ro translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-diag-devinfo - Norsk (Norwegian)
+Description:     Translation for luci-app-diag-devinfo - Română (Romanian)
 
 @@
 
@@ -188,8 +188,8 @@ Description:     Translation for luci-app-diag-devinfo - Tiếng Việt (Vietnam
 
 @@
 
-Package: luci-i18n-diag-devinfo-he
-Default: LUCI_LANG_he||(ALL&&m)
+Package: luci-i18n-diag-devinfo-de
+Default: LUCI_LANG_de||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-devinfo
 Conflicts: 
@@ -198,17 +198,17 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-diag-devinfo - he translation
+Title: luci-app-diag-devinfo - de translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-diag-devinfo - עִבְרִית (Hebrew)
+Description:     Translation for luci-app-diag-devinfo - Deutsch (German)
 
 @@
 
-Package: luci-i18n-diag-devinfo-ro
-Default: LUCI_LANG_ro||(ALL&&m)
+Package: luci-i18n-diag-devinfo-no
+Default: LUCI_LANG_no||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-devinfo
 Conflicts: 
@@ -217,12 +217,31 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-diag-devinfo - ro translation
+Title: luci-app-diag-devinfo - no translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-diag-devinfo - Română (Romanian)
+Description:     Translation for luci-app-diag-devinfo - Norsk (Norwegian)
+
+@@
+
+Package: luci-i18n-diag-devinfo-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-devinfo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-devinfo - pt-br translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-devinfo - Português do Brasil (Brazialian Portuguese)
 
 @@
 
@@ -264,8 +283,8 @@ Description:     Translation for luci-app-diag-devinfo - 普通话 (Chinese)
 
 @@
 
-Package: luci-i18n-diag-devinfo-de
-Default: LUCI_LANG_de||(ALL&&m)
+Package: luci-i18n-diag-devinfo-he
+Default: LUCI_LANG_he||(ALL&&m)
 Version: x-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-devinfo
 Conflicts: 
@@ -274,12 +293,12 @@ Provides:
 Build-Depends: lua/host luci-base/host 
 Section: luci
 Category: LuCI
-Title: luci-app-diag-devinfo - de translation
+Title: luci-app-diag-devinfo - he translation
 Maintainer: 
 Source: 
 Type: ipkg
 Hidden: 1
-Description:     Translation for luci-app-diag-devinfo - Deutsch (German)
+Description:     Translation for luci-app-diag-devinfo - עִבְרִית (Hebrew)
 
 @@
 
@@ -413,25 +432,6 @@ Source:
 Type: ipkg
 Hidden: 1
 Description:     Translation for luci-app-diag-devinfo - Español (Spanish)
-
-@@
-
-Package: luci-i18n-diag-devinfo-pt-br
-Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-diag-devinfo
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: lua/host luci-base/host 
-Section: luci
-Category: LuCI
-Title: luci-app-diag-devinfo - pt-br translation
-Maintainer: 
-Source: 
-Type: ipkg
-Hidden: 1
-Description:     Translation for luci-app-diag-devinfo - Português do Brasil (Brazialian Portuguese)
 
 @@
 

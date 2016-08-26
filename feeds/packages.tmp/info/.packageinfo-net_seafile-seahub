@@ -1,22 +1,21 @@
 Source-Makefile: feeds/packages/net/seafile-seahub/Makefile
 Package: seafile-seahub
-Version: 4.1.2-3fb1288f920de03a4e2e6a06b60671ce98971742
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +simplejson +pillow +python-setuptools
+Version: 5.1.1-95f762f396c81f840fe658ab983df53784083bb1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +simplejson +python +pillow +chardet +django +django-appconf +django-compressor +django-constance +django-jsonfield +django-picklefield +django-postoffice +django-restframework +django-statici18n +et_xmlfile +flup +gunicorn +jdcal +openpyxl +python-dateutil +python-mysql +pytz +rcssmin
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python-setuptools
 Section: net
 Category: Network
 Title: Seafile server - seahub component
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: seafile-seahub-4.1.2-3fb1288f920de03a4e2e6a06b60671ce98971742.tar.gz
+Source: seafile-seahub-5.1.1-95f762f396c81f840fe658ab983df53784083bb1.tar.gz
 License: Apache-2.0
 Type: ipkg
 Description:    The web end of seafile server.
 
-   NOTE: in order to have better performance, language support is turned off by default.
-   Please set 'USE_I18N = True' in seahub_settings.py to support multiple languages.
+   NOTE: in order to have better performance, localization support is turned off by default.
+   Please set 'USE_I18N = True' in seahub_settings.py if you intend to use languages other than English.
 http://seafile.com/
 Gergely Kiss <mail.gery@gmail.com>
 @@
