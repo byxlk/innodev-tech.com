@@ -638,4 +638,4 @@ module_platform_driver(rt5350_pcm_driver);
 MODULE_AUTHOR("Derek Quan <qdk0901@qq.com>");
 MODULE_DESCRIPTION("RT5350 PCM Driver");
 MODULE_LICENSE("GPL");
-MODULE_ALIAS("platform:rt5350-pcm");
+MODULE_ALIAS("platform:master-pcm");

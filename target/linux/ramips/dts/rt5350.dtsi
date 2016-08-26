@@ -10,7 +10,7 @@
 	};
 
 	chosen {
-		bootargs = "console=ttyS0,57600";
+		bootargs = "console=ttyS1,57600";
 	};
 
 	cpuintc: cpuintc@0 {
@@ -246,7 +246,7 @@
 			status = "disabled";
 		};
 
-        pcm: pcm@2000 {
+                pcm: pcm@2000 {
 			compatible = "ralink,rt5350-pcm,master-pcm";
 			reg = <0x2000 0x800>;
 

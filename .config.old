@@ -4000,6 +4000,6 @@ CONFIG_PACKAGE_kmod-master-pcm=y
 # CONFIG_PACKAGE_kmod-rt5350-i2s is not set
 # CONFIG_PACKAGE_kmod-rt5350-pcm is not set
 # CONFIG_PACKAGE_kmod-si3050-ctrl is not set
-# CONFIG_PACKAGE_starphone is not set
+CONFIG_PACKAGE_starphone=y
 # CONFIG_PACKAGE_wifi-audio is not set
 # CONFIG_PACKAGE_wifi-phone-server is not set
