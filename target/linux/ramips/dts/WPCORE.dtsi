@@ -4,10 +4,6 @@
 	compatible = "WpCore", "ralink,rt5350-soc";
 	model = "WpCore";
 
-        chosen {
-            bootargs = "console=ttyS1,57600";
-        };
-
         codec: sxx-pcm-codec {
 	    compatible = "ralink,sxx-pcm-codec";
         };
