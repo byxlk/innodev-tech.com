@@ -72,7 +72,7 @@ void pcm_init_config(struct pcm_config* config)
     unsigned int period_size = 128;
     unsigned int period_count = 2;
     
-    config->channels = channels;
+    config->channels = channels; // 2
     config->rate = rate;
     config->period_size = period_size;
     config->period_count = period_count;
@@ -147,7 +147,10 @@ void loopback()
     unsigned char buff[128];
     
     if (!pcm_out || !pcm_in)
+    {
+        _ERROR("pcm_out OR pcm_in is NULL.");
         return;
+    }
     
     printf("buffer size:%d %d\n", pcm_get_buffer_size(pcm_out), pcm_get_buffer_size(pcm_in));
     
@@ -183,7 +186,7 @@ int main(int argc, char **argv)
         _DEBUG("Quit Test Mode ....");
     //}
     //play();
-    loopback();
+    //loopback();
     return 0;
 }
 

@@ -523,8 +523,8 @@ static int rt5350_pcm_dev_probe(struct platform_device *pdev)
         _DEBUG("++");
 
         // Config GPIO MODE register
-        //gpio_cfg = rt5350_reg_read(GPIOMODE_BASE + GPIOMODE_OFFSET);   
-        //_DEBUG("GPIO MODE REG: 0x%0x\n",gpio_cfg);
+        gpio_cfg = rt5350_reg_read(GPIOMODE_BASE + GPIOMODE_OFFSET);   
+        _DEBUG("GPIO MODE REG: 0x%0x\n",gpio_cfg);
         //gpio_cfg |= (0x1 << 6); // JTAG_GPIO_MODE     
         //gpio_cfg |= (0x4 << 2);// UARTF_SHARE_MODE  PCM + GPIO = b100
         //rt5350_reg_write(GPIOMODE_BASE + GPIOMODE_OFFSET, gpio_cfg);
