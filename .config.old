@@ -161,13 +161,6 @@ CONFIG_ARCH="mipsel"
 # Target Images
 #
 # CONFIG_TARGET_ROOTFS_INITRAMFS is not set
-# CONFIG_TARGET_INITRAMFS_COMPRESSION_NONE is not set
-# CONFIG_TARGET_INITRAMFS_COMPRESSION_GZIP is not set
-# CONFIG_TARGET_INITRAMFS_COMPRESSION_BZIP2 is not set
-# CONFIG_TARGET_INITRAMFS_COMPRESSION_LZMA is not set
-# CONFIG_TARGET_INITRAMFS_COMPRESSION_LZO is not set
-# CONFIG_TARGET_INITRAMFS_COMPRESSION_LZ4 is not set
-# CONFIG_TARGET_INITRAMFS_COMPRESSION_XZ is not set
 CONFIG_EXTERNAL_CPIO=""
 
 #
@@ -1845,7 +1838,7 @@ CONFIG_PACKAGE_kmod-ac97=y
 # CONFIG_PACKAGE_kmod-sound-dummy is not set
 # CONFIG_PACKAGE_kmod-sound-i8x0 is not set
 # CONFIG_PACKAGE_kmod-sound-mpu401 is not set
-# CONFIG_PACKAGE_kmod-sound-seq is not set
+CONFIG_PACKAGE_kmod-sound-seq=y
 CONFIG_PACKAGE_kmod-sound-soc-ac97=y
 CONFIG_PACKAGE_kmod-sound-soc-core=y
 # CONFIG_PACKAGE_kmod-sound-via82xx is not set
@@ -3994,7 +3987,7 @@ CONFIG_PACKAGE_libjson-script=y
 #
 # Wpcore-starphone
 #
-# CONFIG_PACKAGE_atest is not set
+CONFIG_PACKAGE_atest=y
 # CONFIG_PACKAGE_gmediarender is not set
 CONFIG_PACKAGE_kmod-master-pcm=y
 # CONFIG_PACKAGE_kmod-rt5350-i2s is not set

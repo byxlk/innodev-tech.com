@@ -41,8 +41,8 @@ int _recv(int connfd, void* buf, int size) {
 	int n;
 	if( (n=recv(connfd, buf, size, 0)) < 0) {
 		perror("recv");
-		//pthread_exit(NULL);
-		return 0; // close socket
+		pthread_exit(NULL);
+		//return 0; // close socket
 	}
 	return n;
 }
